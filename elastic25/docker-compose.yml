@@ -33,6 +33,8 @@ services:
                                                         # by elasticsearch user... some access denied
                                                         # issues... so, use 
       - jingChak23:/usr/share/elasticsearch/data      # now volume must be specified
+      # - /usr/share/elasticsearch/data      # now volume must be specified
+      # - ./elasticSearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml:ro,Z        # not Working
     environment:
       ELASTIC_PASSWORD: 061288
       ES_JAVA_OPTS: -Xms512m -Xmx512m
@@ -56,7 +58,7 @@ services:
       # ikkada changeInHost lo maariste, akkada fileInContainer affect autundi
       # adi, logstash input filter trigger autundi... type=fileInput23 kabatti
       # 'file-stuff-23' ane index in elasticSearch lo save autundi...
-      - ./changeInHost.log:/usr/share/logstash/fileInContainer.log
+      # - ./changeInHost.log:/usr/share/logstash/fileInContainer.log
       - ./logstashLogFile.log:/usr/share/logstash/blah1.log
     ports:
       - 5044:5044
@@ -70,6 +72,14 @@ services:
       # name this dataview as "logs23"
     # go to discover & switch to "logs23" dataview
     # feed data to logstash ---> echo "today is Oct 13" | nc -q0 localhost 50000
+    # feed data to logstash via greylog (gelf)
+    # to listen on 12201 port =======================> netcat -ulk 12201
+    # echo -e '{"version": "1.2","env23":"peddaPuli"}\0' | nc -w 1 127.0.0.1 12201
+    # echo '{"version": "1.1", "msg": "we like realMadrid"}' | gzip | nc -u -w 1 127.0.0.1 12201
+      # -u              :   use udp, instead of default option of tcp
+      # -w time23       :   after time23 seconds, dont bother trying to establish connection
+
+
     environment:
       LS_JAVA_OPTS: -Xms256m -Xmx256m
       LOGSTASH_INTERNAL_PASSWORD: 061288
@@ -84,7 +94,7 @@ volumes:
     driver_opts:
       o: bind
       type: none
-      device: /home/gsakshi/Desktop/elastic_23_and_24/elastic25/esdata24
+      device: /home/gsakshi/Desktop/repos23/others/elk23/elastic25/esdata24
 
 networks:
   elk23:
