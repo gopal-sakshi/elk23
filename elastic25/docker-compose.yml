@@ -1,4 +1,4 @@
-version: '2.3'
+# version: '2.3'      ### version is obsolete... NOT NEEDED
 
 services:
 
@@ -32,9 +32,10 @@ services:
                                                         # with this approach, esdata23 must be owned
                                                         # by elasticsearch user... some access denied
                                                         # issues... so, use 
-      - jingChak23:/usr/share/elasticsearch/data      # now volume must be specified
+      # - jingChak23:/usr/share/elasticsearch/data      # now volume must be specified
       # - /usr/share/elasticsearch/data      # now volume must be specified
       # - ./elasticSearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml:ro,Z        # not Working
+      - /usr/share/elasticsearch/data      # now volume must be specified
     environment:
       ELASTIC_PASSWORD: 061288
       ES_JAVA_OPTS: -Xms512m -Xmx512m
