@@ -1,0 +1,165 @@
+{
+    ".kibana-observability-ai-assistant-conversations-000001": {
+        "settings": {
+            "index": {
+                "routing": {
+                    "allocation": {
+                        "include": {
+                            "_tier_preference": "data_content"
+                        }
+                    }
+                },
+                "mapping": {
+                    "total_fields": {
+                        "limit": "10000"
+                    }
+                },
+                "refresh_interval": "1s",
+                "number_of_shards": "1",
+                "auto_expand_replicas": "0-1",
+                "provided_name": ".kibana-observability-ai-assistant-conversations-000001",
+                "creation_date": "1718475045770",
+                "number_of_replicas": "0",
+                "uuid": "1b8uSbK-T3KNzj-yILBITQ",
+                "version": {
+                    "created": "8100299"
+                }
+            }
+        }
+    },
+    "eng_movies24": {
+        "settings": {
+            "index": {
+                "routing": {
+                    "allocation": {
+                        "include": {
+                            "_tier_preference": "data_content"
+                        }
+                    }
+                },
+                "number_of_shards": "1",
+                "provided_name": "eng_movies24",
+                "creation_date": "1718501702485",
+                "number_of_replicas": "1",
+                "uuid": "KZiSznVgTvaD0OxmguJ_kg",
+                "version": {
+                    "created": "8100299"
+                }
+            }
+        }
+    },
+    "kibana_sample_data_ecommerce": {
+        "settings": {
+            "index": {
+                "routing": {
+                    "allocation": {
+                        "include": {
+                            "_tier_preference": "data_content"
+                        }
+                    }
+                },
+                "number_of_shards": "1",
+                "auto_expand_replicas": "0-1",
+                "provided_name": "kibana_sample_data_ecommerce",
+                "creation_date": "1718475616873",
+                "number_of_replicas": "0",
+                "uuid": "szaCYMvMRU6RbETTXX1ipg",
+                "version": {
+                    "created": "8100299"
+                }
+            }
+        }
+    },
+    "search-books24": {
+        "settings": {
+            "index": {
+                "routing": {
+                    "allocation": {
+                        "include": {
+                            "_tier_preference": "data_content"
+                        }
+                    }
+                },
+                "number_of_shards": "1",
+                "provided_name": "search-books24",
+                "creation_date": "1718479525449",
+                "number_of_replicas": "1",
+                "uuid": "D23p6wIHQw--p7jktGAfdw",
+                "version": {
+                    "created": "8100299"
+                }
+            }
+        }
+    },
+    ".kibana-observability-ai-assistant-kb-000001": {
+        "settings": {
+            "index": {
+                "routing": {
+                    "allocation": {
+                        "include": {
+                            "_tier_preference": "data_content"
+                        }
+                    }
+                },
+                "mapping": {
+                    "total_fields": {
+                        "limit": "10000"
+                    }
+                },
+                "refresh_interval": "1s",
+                "number_of_shards": "1",
+                "auto_expand_replicas": "0-1",
+                "provided_name": ".kibana-observability-ai-assistant-kb-000001",
+                "creation_date": "1718475046420",
+                "number_of_replicas": "0",
+                "uuid": "nVhd6LlAQmGgq55ZCQ8Osw",
+                "version": {
+                    "created": "8100299"
+                }
+            }
+        }
+    },
+    "kibana_sample_data_flights": {
+        "settings": {
+            "index": {
+                "routing": {
+                    "allocation": {
+                        "include": {
+                            "_tier_preference": "data_content"
+                        }
+                    }
+                },
+                "number_of_shards": "1",
+                "auto_expand_replicas": "0-1",
+                "provided_name": "kibana_sample_data_flights",
+                "creation_date": "1718475623906",
+                "number_of_replicas": "0",
+                "uuid": "AMOA3SsUTZq-uvGYIsfz_Q",
+                "version": {
+                    "created": "8100299"
+                }
+            }
+        }
+    },
+    "telugu_movies23": {
+        "settings": {
+            "index": {
+                "routing": {
+                    "allocation": {
+                        "include": {
+                            "_tier_preference": "data_content"
+                        }
+                    }
+                },
+                "number_of_shards": "1",
+                "provided_name": "telugu_movies23",
+                "creation_date": "1718476454741",
+                "number_of_replicas": "1",
+                "uuid": "vAJBN8daSEKvDEIUa4ZrzQ",
+                "version": {
+                    "created": "8100299"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1125 @@
+{
+    "took": 87,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 61,
+            "relation": "eq"
+        },
+        "max_score": 12.033186,
+        "hits": [
+            {
+                "_index": "eng_movies24",
+                "_id": "08mvHpABujRaLBZDFYJe",
+                "_score": 12.033186,
+                "_source": {
+                    "languages": [
+                        "German",
+                        "Turkish"
+                    ],
+                    "year": {
+                        "$numberInt": "2010"
+                    },
+                    "directors": [
+                        "Feo Aladag"
+                    ],
+                    "metacritic": {
+                        "$numberInt": "65"
+                    },
+                    "runtime": {
+                        "$numberInt": "119"
+                    },
+                    "writers": [
+                        "Feo Aladag"
+                    ],
+                    "countries": [
+                        "Germany"
+                    ],
+                    "title": "When We Leave",
+                    "type": "movie",
+                    "rated": "UNRATED",
+                    "cast": [
+                        "Sibel Kekilli",
+                        "Nizam Schiller",
+                        "Derya Alabora",
+                        "Settar Tanriègen"
+                    ],
+                    "tomatoes": {
+                        "viewer": {
+                            "meter": {
+                                "$numberInt": "80"
+                            },
+                            "rating": {
+                                "$numberDouble": "3.8"
+                            },
+                            "numReviews": {
+                                "$numberInt": "1269"
+                            }
+                        },
+                        "lastUpdated": {
+                            "$date": {
+                                "$numberLong": "1442077502000"
+                            }
+                        },
+                        "website": "http://whenweleave.com/",
+                        "dvd": {
+                            "$date": {
+                                "$numberLong": "1307404800000"
+                            }
+                        },
+                        "critic": {
+                            "meter": {
+                                "$numberInt": "74"
+                            },
+                            "rating": {
+                                "$numberDouble": "6.4"
+                            },
+                            "numReviews": {
+                                "$numberInt": "31"
+                            }
+                        },
+                        "production": "Olive Films",
+                        "boxOffice": "$18.9k",
+                        "fresh": {
+                            "$numberInt": "23"
+                        },
+                        "rotten": {
+                            "$numberInt": "8"
+                        }
+                    },
+                    "fullplot": "German-born Umay flees her oppressive marriage in Istanbul, taking her young son Cem with her. She hopes to find a better life with her family in Berlin, but her unexpected arrival creates intense conflict. Her family is trapped in their conventions, torn between their love for her and the traditional values of their community. Ultimately they decide to return Cem to his father in Turkey. To keep her son, Umay is forced to move again. She finds the inner strength to build a new life for herself and Cem, but her need for her family's love drives her to a series of ill-fated attempts at reconciliation. What Umay doesn't realize is just how deep the wounds have gone and how dangerous her struggle for self-determination has become...",
+                    "imdb": {
+                        "rating": {
+                            "$numberDouble": "7.6"
+                        },
+                        "votes": {
+                            "$numberInt": "4113"
+                        },
+                        "id": {
+                            "$numberInt": "1288376"
+                        }
+                    },
+                    "@timestamp": "2015-09-15T02:11:45.503000000+05:30",
+                    "plot": "Umay is a young woman of Turkish descent, fighting for an independent and self-determined life in Germany against the resistance of her family. Her struggle initiates a dynamic, which results in a life-threatening situation.",
+                    "genres": [
+                        "Drama"
+                    ],
+                    "awards": {
+                        "wins": {
+                            "$numberInt": "30"
+                        },
+                        "text": "30 wins & 12 nominations.",
+                        "nominations": {
+                            "$numberInt": "12"
+                        }
+                    },
+                    "lastupdated": "2015-09-15 02:11:45.503000000",
+                    "poster": "https://m.media-amazon.com/images/M/MV5BMTQ0MDYyNjI2Ml5BMl5BanBnXkFtZTcwMDkzNTQwNA@@._V1_SY1000_SX677_AL_.jpg",
+                    "released": {
+                        "$date": {
+                            "$numberLong": "1296172800000"
+                        }
+                    }
+                }
+            },
+            {
+                "_index": "eng_movies24",
+                "_id": "-8mvHpABujRaLBZDCl8o",
+                "_score": 9.788311,
+                "_source": {
+                    "languages": [
+                        "English"
+                    ],
+                    "year": {
+                        "$numberInt": "2000"
+                    },
+                    "directors": [
+                        "Eric Leighton",
+                        "Ralph Zondag"
+                    ],
+                    "metacritic": {
+                        "$numberInt": "56"
+                    },
+                    "runtime": {
+                        "$numberInt": "82"
+                    },
+                    "writers": [
+                        "Thom Enriquez (story)",
+                        "John Harrison (story)",
+                        "Robert Nelson Jacobs (story)",
+                        "Ralph Zondag (story)",
+                        "John Harrison (screenplay)",
+                        "Robert Nelson Jacobs (screenplay)",
+                        "Walon Green (based on an earlier screenplay by)",
+                        "Gregory Gunter (creative development)",
+                        "Shirley Pierce (additional written material)",
+                        "Jonathan Roberts (additional story material)",
+                        "Rhett Reese (additional story material)",
+                        "Tamara Lusher (additional story)"
+                    ],
+                    "countries": [
+                        "USA"
+                    ],
+                    "title": "Dinosaur",
+                    "type": "movie",
+                    "num_mflix_comments": {
+                        "$numberInt": "1"
+                    },
+                    "rated": "PG",
+                    "tomatoes": {
+                        "consensus": "While Dinosaur's plot is generic and dull, its stunning computer animation and detailed backgrounds are enough to make it worth a look.",
+                        "viewer": {
+                            "meter": {
+                                "$numberInt": "47"
+                            },
+                            "rating": {
+                                "$numberInt": "3"
+                            },
+                            "numReviews": {
+                                "$numberInt": "70572"
+                            }
+                        },
+                        "lastUpdated": {
+                            "$date": {
+                                "$numberLong": "1442424952000"
+                            }
+                        },
+                        "website": "http://disney.go.com/disneypictures/dinosaur/dinomain.html",
+                        "dvd": {
+                            "$date": {
+                                "$numberLong": "980812800000"
+                            }
+                        },
+                        "critic": {
+                            "meter": {
+                                "$numberInt": "65"
+                            },
+                            "rating": {
+                                "$numberDouble": "6.2"
+                            },
+                            "numReviews": {
+                                "$numberInt": "122"
+                            }
+                        },
+                        "production": "Buena Vista",
+                        "boxOffice": "$135.6M",
+                        "fresh": {
+                            "$numberInt": "79"
+                        },
+                        "rotten": {
+                            "$numberInt": "43"
+                        }
+                    },
+                    "cast": [
+                        "D.B. Sweeney",
+                        "Alfre Woodard",
+                        "Ossie Davis",
+                        "Max Casella"
+                    ],
+                    "fullplot": "During an attack on a pack of Iguanodon, an egg is separated and ends up with the possession of a group of lemurs. The lemurs care for this egg and the young creature born from it, which they call Aladar. When a meteor shower hits earth, Aladar and his family must leave their homeland. Away from home and as close to danger as they have ever been, they meet up with a huge group of dinosaurs, led by Kron and Bruton. All together they are trying to reach the nesting grounds, but it's not going to be easy.",
+                    "imdb": {
+                        "rating": {
+                            "$numberDouble": "6.4"
+                        },
+                        "votes": {
+                            "$numberInt": "35188"
+                        },
+                        "id": {
+                            "$numberInt": "130623"
+                        }
+                    },
+                    "@timestamp": "2015-09-14T08:06:05.787000000+05:30",
+                    "plot": "An orphaned dinosaur raised by lemurs joins an arduous trek to a sancturary after a meteorite shower destroys his family home.",
+                    "genres": [
+                        "Animation",
+                        "Adventure",
+                        "Family"
+                    ],
+                    "awards": {
+                        "wins": {
+                            "$numberInt": "4"
+                        },
+                        "text": "4 wins & 20 nominations.",
+                        "nominations": {
+                            "$numberInt": "20"
+                        }
+                    },
+                    "lastupdated": "2015-09-14 08:06:05.787000000",
+                    "poster": "https://m.media-amazon.com/images/M/MV5BZWQ1NTZjMjUtODNmZS00NTVhLWFhM2ItNWZiOTdjMzdhZTY2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_SX677_AL_.jpg",
+                    "released": {
+                        "$date": {
+                            "$numberLong": "958694400000"
+                        }
+                    }
+                }
+            },
+            {
+                "_index": "eng_movies24",
+                "_id": "YcmvHpABujRaLBZDFYbX",
+                "_score": 8.776572,
+                "_source": {
+                    "languages": [
+                        "Spanish",
+                        "Italian"
+                    ],
+                    "year": {
+                        "$numberInt": "2009"
+                    },
+                    "directors": [
+                        "Pedro Gonzèlez-Rubio"
+                    ],
+                    "metacritic": {
+                        "$numberInt": "77"
+                    },
+                    "runtime": {
+                        "$numberInt": "73"
+                    },
+                    "writers": [
+                        "Pedro Gonzèlez-Rubio (screenplay)"
+                    ],
+                    "countries": [
+                        "Mexico"
+                    ],
+                    "title": "Alamar",
+                    "type": "movie",
+                    "num_mflix_comments": {
+                        "$numberInt": "2"
+                    },
+                    "rated": "G",
+                    "tomatoes": {
+                        "viewer": {
+                            "meter": {
+                                "$numberInt": "86"
+                            },
+                            "rating": {
+                                "$numberInt": "4"
+                            },
+                            "numReviews": {
+                                "$numberInt": "1013"
+                            }
+                        },
+                        "lastUpdated": {
+                            "$date": {
+                                "$numberLong": "1438626466000"
+                            }
+                        },
+                        "website": "http://www.filmmovement.com/filmcatalog/index.asp?MerchandiseID=225",
+                        "dvd": {
+                            "$date": {
+                                "$numberLong": "1294704000000"
+                            }
+                        },
+                        "critic": {
+                            "meter": {
+                                "$numberInt": "91"
+                            },
+                            "rating": {
+                                "$numberDouble": "7.4"
+                            },
+                            "numReviews": {
+                                "$numberInt": "46"
+                            }
+                        },
+                        "production": "Film Movement",
+                        "boxOffice": "$61.6k",
+                        "fresh": {
+                            "$numberInt": "42"
+                        },
+                        "rotten": {
+                            "$numberInt": "4"
+                        }
+                    },
+                    "cast": [
+                        "Jorge Machado",
+                        "Roberta Palombini",
+                        "Natan Machado Palombini",
+                        "Nestèr Marèn"
+                    ],
+                    "fullplot": "Before their inevitable farewell, Jorge, a young man of Mayan roots, and Natan, his half-Italian son, spend time together living off the Banco Chinchorro coral reef.",
+                    "imdb": {
+                        "rating": {
+                            "$numberDouble": "7.3"
+                        },
+                        "votes": {
+                            "$numberInt": "1887"
+                        },
+                        "id": {
+                            "$numberInt": "1502396"
+                        }
+                    },
+                    "@timestamp": "2015-09-01T01:06:15.067000000+05:30",
+                    "plot": "Before their inevitable farewell, Jorge, a young man of Mayan roots, and Natan, his half-Italian son, spend time together living off the Banco Chinchorro coral reef.",
+                    "genres": [
+                        "Documentary",
+                        "Drama"
+                    ],
+                    "awards": {
+                        "wins": {
+                            "$numberInt": "10"
+                        },
+                        "text": "10 wins & 7 nominations.",
+                        "nominations": {
+                            "$numberInt": "7"
+                        }
+                    },
+                    "lastupdated": "2015-09-01 01:06:15.067000000",
+                    "poster": "https://m.media-amazon.com/images/M/MV5BMTMzNTE4MjM5Nl5BMl5BanBnXkFtZTcwNDY5MjM3Mw@@._V1_SY1000_SX677_AL_.jpg",
+                    "released": {
+                        "$date": {
+                            "$numberLong": "1279065600000"
+                        }
+                    }
+                }
+            },
+            {
+                "_index": "eng_movies24",
+                "_id": "ecmvHpABujRaLBZDFIG9",
+                "_score": 8.776572,
+                "_source": {
+                    "languages": [
+                        "Hindi"
+                    ],
+                    "year": {
+                        "$numberInt": "2009"
+                    },
+                    "directors": [
+                        "Sujoy Ghosh"
+                    ],
+                    "runtime": {
+                        "$numberInt": "132"
+                    },
+                    "writers": [
+                        "Vishal Dadlani (lyrics)",
+                        "Sujoy Ghosh (screenplay)",
+                        "Suresh Nair (additional story)",
+                        "Ritesh Shah (dialogue)",
+                        "Ritesh Shah (story)"
+                    ],
+                    "countries": [
+                        "India"
+                    ],
+                    "title": "Aladin",
+                    "type": "movie",
+                    "cast": [
+                        "Shubhankar Atre",
+                        "Amitabh Bachchan",
+                        "Victor Banerjee",
+                        "Dhaval Barbhaya"
+                    ],
+                    "tomatoes": {
+                        "viewer": {
+                            "meter": {
+                                "$numberInt": "42"
+                            },
+                            "rating": {
+                                "$numberDouble": "3.3"
+                            },
+                            "numReviews": {
+                                "$numberInt": "884"
+                            }
+                        },
+                        "lastUpdated": {
+                            "$date": {
+                                "$numberLong": "1441304948000"
+                            }
+                        },
+                        "website": "http://www.aladin.erosentertainment.com/",
+                        "dvd": {
+                            "$date": {
+                                "$numberLong": "1299542400000"
+                            }
+                        },
+                        "production": "Eros International"
+                    },
+                    "fullplot": "Based in the municipality of Khwaish, abused by his classmates, Aladin Chatterjee, who was orphaned when his parents, Arun and Riya, died in an accident in Siachen Valley, lived with his paternal grandfather until the later's passing. Now alone, grown up, studying in Khwaish University, and still being abused by fellow-college mates, he finds himself smitten by the lovely US Exchange Student, Jasmine. Unable to express his feelings for her, he rubs a lamp that was gifted to him on his birthday, which summons a genie named Genius. He gets 3 wishes, but wastes 2 of them, but on the 3rd one he insists that Genius assist him to win Jasmine's heart without any magical tricks. Hilarious chaos results when everything seems to fail; while an immortal and deadly entity, Ringmaster, and his hordes, prepares to confront Genius and Aladin so that he can acquire even more magical powers with the help of the lamp on the day of the sighting of a rare comet; and the truth behind the death of Aladin's parents.",
+                    "imdb": {
+                        "rating": {
+                            "$numberDouble": "4.6"
+                        },
+                        "votes": {
+                            "$numberInt": "1817"
+                        },
+                        "id": {
+                            "$numberInt": "1227762"
+                        }
+                    },
+                    "@timestamp": "2015-08-26T00:36:02.227000000+05:30",
+                    "plot": "Since he was a child, Aladin Chatterjee has been teased for his fairytale name. As a college student he follows his namesake's footsteps; unleashing genie Genius and wooing exchange student Jasmine. But the evil Ringmaster approaches.",
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Comedy"
+                    ],
+                    "awards": {
+                        "wins": {
+                            "$numberInt": "3"
+                        },
+                        "text": "3 wins.",
+                        "nominations": {
+                            "$numberInt": "0"
+                        }
+                    },
+                    "lastupdated": "2015-08-26 00:36:02.227000000",
+                    "poster": "https://m.media-amazon.com/images/M/MV5BMTQxMjY4NzUyM15BMl5BanBnXkFtZTcwMDI4NTk5Mw@@._V1_SY1000_SX677_AL_.jpg",
+                    "released": {
+                        "$date": {
+                            "$numberLong": "1256860800000"
+                        }
+                    }
+                }
+            },
+            {
+                "_index": "eng_movies24",
+                "_id": "NsmvHpABujRaLBZDEHXS",
+                "_score": 8.022123,
+                "_source": {
+                    "languages": [
+                        "English"
+                    ],
+                    "year": {
+                        "$numberInt": "2005"
+                    },
+                    "directors": [
+                        "Vladan Nikolic"
+                    ],
+                    "metacritic": {
+                        "$numberInt": "79"
+                    },
+                    "runtime": {
+                        "$numberInt": "90"
+                    },
+                    "writers": [
+                        "Vladan Nikolic"
+                    ],
+                    "countries": [
+                        "USA",
+                        "Serbia and Montenegro"
+                    ],
+                    "title": "Love",
+                    "type": "movie",
+                    "cast": [
+                        "Sergej Trifunovic",
+                        "Geno Lechner",
+                        "Peter Gevisser",
+                        "Didier Flamand"
+                    ],
+                    "tomatoes": {
+                        "viewer": {
+                            "meter": {
+                                "$numberInt": "44"
+                            },
+                            "rating": {
+                                "$numberDouble": "3.4"
+                            },
+                            "numReviews": {
+                                "$numberInt": "896"
+                            }
+                        },
+                        "lastUpdated": {
+                            "$date": {
+                                "$numberLong": "1441994088000"
+                            }
+                        },
+                        "website": "http://www.lovethefilm.com",
+                        "dvd": {
+                            "$date": {
+                                "$numberLong": "1184630400000"
+                            }
+                        },
+                        "critic": {
+                            "meter": {
+                                "$numberInt": "100"
+                            },
+                            "rating": {
+                                "$numberDouble": "7.4"
+                            },
+                            "numReviews": {
+                                "$numberInt": "6"
+                            }
+                        },
+                        "production": "Koch Vision",
+                        "fresh": {
+                            "$numberInt": "6"
+                        },
+                        "rotten": {
+                            "$numberInt": "0"
+                        }
+                    },
+                    "fullplot": "A narrator introduces several characters as we watch events unfold from various vantages: Vanya is a Yugoslavian, adrift after his country's breakup. He's a hitman, now in New York. Anna is a physician, European, in New York after volunteer work in Bosnia. Dirk is a policeman, Anna's boyfriend, seemingly on temporary leave. Vanya's on what's to be a simple job, no violence, an exchange in a hotel. He arrives to find a dead body. He takes the case he's to pick up. Has he been set up? A murderer seems to be right behind him. Anna, in the hotel to see a patient, becomes his hostage while Dirk waits for her outside, ignorant of the deaths nearby. Can Dirk find Anna? What else is going on?",
+                    "imdb": {
+                        "rating": {
+                            "$numberInt": "6"
+                        },
+                        "votes": {
+                            "$numberInt": "253"
+                        },
+                        "id": {
+                            "$numberInt": "450363"
+                        }
+                    },
+                    "@timestamp": "2015-08-02T00:35:52.090000000+05:30",
+                    "plot": "Told through a looping, non-linear narrative from each of the characters' points of view, the film reconstructs the stories of a Yugoslav hit man, his former lover and her police officer boyfriend, as their paths cross in New York.",
+                    "genres": [
+                        "Drama",
+                        "Thriller"
+                    ],
+                    "awards": {
+                        "wins": {
+                            "$numberInt": "2"
+                        },
+                        "text": "2 wins.",
+                        "nominations": {
+                            "$numberInt": "0"
+                        }
+                    },
+                    "lastupdated": "2015-08-02 00:35:52.090000000",
+                    "poster": "https://m.media-amazon.com/images/M/MV5BMTcyNzY0OTk1NV5BMl5BanBnXkFtZTcwMDI2Njc0MQ@@._V1_SY1000_SX677_AL_.jpg",
+                    "released": {
+                        "$date": {
+                            "$numberLong": "1114041600000"
+                        }
+                    }
+                }
+            },
+            {
+                "_index": "eng_movies24",
+                "_id": "OsmvHpABujRaLBZDGpa_",
+                "_score": 7.6471033,
+                "_source": {
+                    "languages": [
+                        "German",
+                        "English",
+                        "Pushto",
+                        "Dari"
+                    ],
+                    "year": {
+                        "$numberInt": "2014"
+                    },
+                    "directors": [
+                        "Feo Aladag"
+                    ],
+                    "runtime": {
+                        "$numberInt": "98"
+                    },
+                    "writers": [
+                        "Feo Aladag (screenplay)",
+                        "Matthias Kock (screenplay)",
+                        "Judith Kaufmann (screenplay)"
+                    ],
+                    "countries": [
+                        "Germany"
+                    ],
+                    "num_mflix_comments": {
+                        "$numberInt": "1"
+                    },
+                    "title": "Inbetween Worlds",
+                    "type": "movie",
+                    "cast": [
+                        "Ronald Zehrfeld",
+                        "Mohsin Ahmady",
+                        "Saida Barmaki",
+                        "Salam Yousefzai"
+                    ],
+                    "tomatoes": {
+                        "viewer": {
+                            "rating": {
+                                "$numberDouble": "2.5"
+                            },
+                            "numReviews": {
+                                "$numberInt": "41"
+                            }
+                        },
+                        "lastUpdated": {
+                            "$date": {
+                                "$numberLong": "1442342988000"
+                            }
+                        },
+                        "dvd": {
+                            "$date": {
+                                "$numberLong": "1446422400000"
+                            }
+                        },
+                        "production": "Vertical Entertainment"
+                    },
+                    "fullplot": "Jesper is a soldier in the German army. Although his brother was killed whilst serving in Afghanistan, he nevertheless reports for a new tour of duty in this war zone. He and his unit are to protect a remote village from the Taliban. One of the people accompanying Jesper is a young interpreter, Tarik, whose job includes mediating between soldiers and villagers. Both sides have a hard time trying to overcome the differences in their respective ways of life. Jesper must gain the trust of both villagers and the allied Arbaki militia and his nerves are soon on edge. He finds himself increasingly morally conflicted as a result of his superiors' orders. His association with the Germans means Tarik's life is constantly under threat, but when Tarik begins to fear for his sister's safety, Jesper has to make a decision. Feo Aladag uses this portrait of an ISAF soldier in Afghanistan to explore questions of affinity and otherness, trust and failure. How humane can your actions be if you are bound by the workings of a strict military bureaucracy? What remains of the ideals of human dignity when you are caught up in a daily struggle for survival?",
+                    "imdb": {
+                        "rating": {
+                            "$numberDouble": "6.3"
+                        },
+                        "votes": {
+                            "$numberInt": "313"
+                        },
+                        "id": {
+                            "$numberInt": "3032028"
+                        }
+                    },
+                    "@timestamp": "2015-08-26T00:37:41.337000000+05:30",
+                    "plot": "Jesper is a soldier in the German army. Although his brother was killed whilst serving in Afghanistan, he nevertheless reports for a new tour of duty in this war zone. He and his unit are ...",
+                    "genres": [
+                        "Drama"
+                    ],
+                    "awards": {
+                        "wins": {
+                            "$numberInt": "3"
+                        },
+                        "text": "3 wins & 4 nominations.",
+                        "nominations": {
+                            "$numberInt": "4"
+                        }
+                    },
+                    "lastupdated": "2015-08-26 00:37:41.337000000",
+                    "poster": "https://m.media-amazon.com/images/M/MV5BNzM1MzEzNTkyMF5BMl5BanBnXkFtZTgwNDQ0NTM1MTE@._V1_SY1000_SX677_AL_.jpg",
+                    "released": {
+                        "$date": {
+                            "$numberLong": "1395878400000"
+                        }
+                    }
+                }
+            },
+            {
+                "_index": "eng_movies24",
+                "_id": "IcmvHpABujRaLBZDDWpC",
+                "_score": 6.6731334,
+                "_source": {
+                    "languages": [
+                        "Korean",
+                        "Cantonese",
+                        "Mandarin"
+                    ],
+                    "year": {
+                        "$numberInt": "2001"
+                    },
+                    "directors": [
+                        "Hae-sung Song"
+                    ],
+                    "runtime": {
+                        "$numberInt": "115"
+                    },
+                    "writers": [
+                        "Jirè Asada (novel)"
+                    ],
+                    "countries": [
+                        "South Korea"
+                    ],
+                    "num_mflix_comments": {
+                        "$numberInt": "1"
+                    },
+                    "title": "Pairan",
+                    "type": "movie",
+                    "cast": [
+                        "Min-sik Choi",
+                        "Cecilia Cheung",
+                        "Dae-Hoon Jeong",
+                        "Hyeong-jin Kong"
+                    ],
+                    "tomatoes": {
+                        "viewer": {
+                            "meter": {
+                                "$numberInt": "86"
+                            },
+                            "rating": {
+                                "$numberInt": "4"
+                            },
+                            "numReviews": {
+                                "$numberInt": "1932"
+                            }
+                        },
+                        "lastUpdated": {
+                            "$date": {
+                                "$numberLong": "1440181264000"
+                            }
+                        },
+                        "dvd": {
+                            "$date": {
+                                "$numberLong": "1048032000000"
+                            }
+                        },
+                        "production": "Asian Crush"
+                    },
+                    "fullplot": "After losing both her parents, Failan (Cecilia Cheung) emmigrates to Korea to seek her only remaining relatives. Once she reaches Korea, she finds out that her relatives have moved to Canada well over a year ago. Desperate to stay and make a living in Korea, Failan is forced to have an arranged marriage through a match-making agency. Kang Jae (Choi Min Shik) is an old and outdated gangster who has no respect from his peers. Short on money, Kang Jae decides to take on the arranged marriage. Having nothing more than a picture of Kang Jae, Failan spends her days dreaming and wishing that Kang Jae would come to visit her. Failan often writes to Kang Jae in sorrow about how much she misses and thinks about him, but never has the nerve to give the letters to Kang Jae. Things take a turn when Kang Jae is asked by his boss to take the fall for a murder in exchange for some money. The only hope in his worthless life is the wife he never met.",
+                    "imdb": {
+                        "rating": {
+                            "$numberDouble": "7.8"
+                        },
+                        "votes": {
+                            "$numberInt": "4184"
+                        },
+                        "id": {
+                            "$numberInt": "289181"
+                        }
+                    },
+                    "@timestamp": "2015-08-23T00:21:00.983000000+05:30",
+                    "plot": "Kangjae, a small time gangster receive a news that his wife Failan is dead. Failan, his wife who he never met.",
+                    "genres": [
+                        "Drama",
+                        "Romance"
+                    ],
+                    "awards": {
+                        "wins": {
+                            "$numberInt": "6"
+                        },
+                        "text": "6 wins.",
+                        "nominations": {
+                            "$numberInt": "0"
+                        }
+                    },
+                    "lastupdated": "2015-08-23 00:21:00.983000000",
+                    "poster": "https://m.media-amazon.com/images/M/MV5BMTc5NzM2MDY5MF5BMl5BanBnXkFtZTcwMTMxNDgxMQ@@._V1_SY1000_SX677_AL_.jpg",
+                    "released": {
+                        "$date": {
+                            "$numberLong": "988416000000"
+                        }
+                    }
+                }
+            },
+            {
+                "_index": "eng_movies24",
+                "_id": "tsmvHpABujRaLBZDFIK-",
+                "_score": 6.622886,
+                "_source": {
+                    "languages": [
+                        "Czech"
+                    ],
+                    "year": {
+                        "$numberInt": "2008"
+                    },
+                    "directors": [
+                        "Bohdan Slèma"
+                    ],
+                    "runtime": {
+                        "$numberInt": "103"
+                    },
+                    "writers": [
+                        "Bohdan Slèma (screenplay)"
+                    ],
+                    "countries": [
+                        "Czech Republic",
+                        "France",
+                        "Germany"
+                    ],
+                    "title": "The Country Teacher",
+                    "type": "movie",
+                    "rated": "UNRATED",
+                    "cast": [
+                        "Pavel Liska",
+                        "Zuzana Bydzovskè",
+                        "Ladislav Sedivè",
+                        "Marek Daniel"
+                    ],
+                    "tomatoes": {
+                        "consensus": "Bohdan Slama's stunningly filmed dramedy is loaded with full-bodied characters and quietly sincere performances.",
+                        "viewer": {
+                            "meter": {
+                                "$numberInt": "73"
+                            },
+                            "rating": {
+                                "$numberDouble": "3.6"
+                            },
+                            "numReviews": {
+                                "$numberInt": "1707"
+                            }
+                        },
+                        "lastUpdated": {
+                            "$date": {
+                                "$numberLong": "1440008621000"
+                            }
+                        },
+                        "website": "http://www.ceskatelevize.cz/specialy/venkovskyucitel/",
+                        "dvd": {
+                            "$date": {
+                                "$numberLong": "1252368000000"
+                            }
+                        },
+                        "critic": {
+                            "meter": {
+                                "$numberInt": "80"
+                            },
+                            "rating": {
+                                "$numberDouble": "6.7"
+                            },
+                            "numReviews": {
+                                "$numberInt": "25"
+                            }
+                        },
+                        "production": "Film Movement",
+                        "fresh": {
+                            "$numberInt": "20"
+                        },
+                        "rotten": {
+                            "$numberInt": "5"
+                        }
+                    },
+                    "fullplot": "Petr, youthful, quiet, and sensitive, comes from Prague to teach natural science in a country town. The gruff principal asks what he's running from and predicts he'll be gone in six months. Marie, a widow with a teen son, Lada, befriends Petr. She's lonely. Petr does some chores at her farm and watches Lada with his weekend girlfriend, Bara. We meet Petr's parents and understand some of why he left Prague, then Petr's friend Mihi pays a visit and we understand more. Mihi throws a wrench in things, and Lada comes to Petr for help. Has Petr found his place in the world, but what about his nature?",
+                    "imdb": {
+                        "rating": {
+                            "$numberInt": "7"
+                        },
+                        "votes": {
+                            "$numberInt": "1079"
+                        },
+                        "id": {
+                            "$numberInt": "1284526"
+                        }
+                    },
+                    "@timestamp": "2015-09-01T01:06:54.553000000+05:30",
+                    "plot": "Petr, youthful, quiet, and sensitive, comes from Prague to teach natural science in a country town. The gruff principal asks what he's running from and predicts he'll be gone in six months....",
+                    "genres": [
+                        "Drama"
+                    ],
+                    "awards": {
+                        "wins": {
+                            "$numberInt": "6"
+                        },
+                        "text": "6 wins & 8 nominations.",
+                        "nominations": {
+                            "$numberInt": "8"
+                        }
+                    },
+                    "lastupdated": "2015-09-01 01:06:54.553000000",
+                    "poster": "https://m.media-amazon.com/images/M/MV5BOTc0OTcyMTQ0NF5BMl5BanBnXkFtZTcwOTM3OTA1Mg@@._V1_SY1000_SX677_AL_.jpg",
+                    "released": {
+                        "$date": {
+                            "$numberLong": "1238112000000"
+                        }
+                    }
+                }
+            },
+            {
+                "_index": "eng_movies24",
+                "_id": "5smvHpABujRaLBZDGZJ_",
+                "_score": 6.5986285,
+                "_source": {
+                    "languages": [
+                        "English"
+                    ],
+                    "year": {
+                        "$numberInt": "2013"
+                    },
+                    "directors": [
+                        "Andrea Pallaoro"
+                    ],
+                    "metacritic": {
+                        "$numberInt": "64"
+                    },
+                    "runtime": {
+                        "$numberInt": "97"
+                    },
+                    "writers": [
+                        "Andrea Pallaoro",
+                        "Orlando Tirado"
+                    ],
+                    "countries": [
+                        "USA",
+                        "Italy"
+                    ],
+                    "num_mflix_comments": {
+                        "$numberInt": "2"
+                    },
+                    "title": "Medeas",
+                    "type": "movie",
+                    "cast": [
+                        "Catalina Sandino Moreno",
+                        "Brèan F. O'Byrne",
+                        "Mary Mouser",
+                        "Ian Nelson"
+                    ],
+                    "tomatoes": {
+                        "viewer": {
+                            "meter": {
+                                "$numberInt": "80"
+                            },
+                            "rating": {
+                                "$numberInt": "4"
+                            },
+                            "numReviews": {
+                                "$numberInt": "32"
+                            }
+                        },
+                        "lastUpdated": {
+                            "$date": {
+                                "$numberLong": "1438022083000"
+                            }
+                        },
+                        "website": "http://vladar.com",
+                        "critic": {
+                            "meter": {
+                                "$numberInt": "78"
+                            },
+                            "rating": {
+                                "$numberDouble": "6.7"
+                            },
+                            "numReviews": {
+                                "$numberInt": "9"
+                            }
+                        },
+                        "production": "Vladar Company",
+                        "fresh": {
+                            "$numberInt": "7"
+                        },
+                        "rotten": {
+                            "$numberInt": "2"
+                        }
+                    },
+                    "fullplot": "Medeas is a daring and lyrical exploration of alienation and desperation through the intimate observation of a family's inner lives and their relationship to each other and their environment. Without moral judgment, it probes the boundaries of human behavior and the lengths to which people can be driven for love and self-preservation.",
+                    "imdb": {
+                        "rating": {
+                            "$numberDouble": "6.5"
+                        },
+                        "votes": {
+                            "$numberInt": "155"
+                        },
+                        "id": {
+                            "$numberInt": "2390630"
+                        }
+                    },
+                    "@timestamp": "2015-08-08T00:17:49.070000000+05:30",
+                    "plot": "Medeas is a daring and lyrical exploration of alienation and desperation through the intimate observation of a family's inner lives and their relationship to each other and their ...",
+                    "genres": [
+                        "Drama"
+                    ],
+                    "awards": {
+                        "wins": {
+                            "$numberInt": "7"
+                        },
+                        "text": "7 wins & 6 nominations.",
+                        "nominations": {
+                            "$numberInt": "6"
+                        }
+                    },
+                    "lastupdated": "2015-08-08 00:17:49.070000000",
+                    "poster": "https://m.media-amazon.com/images/M/MV5BODQxNjE4NDYwM15BMl5BanBnXkFtZTgwODgzMzk0MzE@._V1_SY1000_SX677_AL_.jpg",
+                    "released": {
+                        "$date": {
+                            "$numberLong": "1432252800000"
+                        }
+                    }
+                }
+            },
+            {
+                "_index": "eng_movies24",
+                "_id": "HsmuHpABujRaLBZD_T8c",
+                "_score": 6.3725863,
+                "_source": {
+                    "languages": [
+                        "English",
+                        "Italian",
+                        "Russian",
+                        "Spanish",
+                        "German"
+                    ],
+                    "year": {
+                        "$numberInt": "1932"
+                    },
+                    "directors": [
+                        "Ernst Lubitsch"
+                    ],
+                    "runtime": {
+                        "$numberInt": "83"
+                    },
+                    "writers": [
+                        "Samson Raphaelson (screenplay)",
+                        "Grover Jones (adaptation)",
+                        "Aladar Laszlo (play)"
+                    ],
+                    "countries": [
+                        "USA"
+                    ],
+                    "num_mflix_comments": {
+                        "$numberInt": "3"
+                    },
+                    "title": "Trouble in Paradise",
+                    "type": "movie",
+                    "rated": "PASSED",
+                    "cast": [
+                        "Miriam Hopkins",
+                        "Kay Francis",
+                        "Herbert Marshall",
+                        "Charles Ruggles"
+                    ],
+                    "tomatoes": {
+                        "viewer": {
+                            "meter": {
+                                "$numberInt": "91"
+                            },
+                            "rating": {
+                                "$numberDouble": "4.2"
+                            },
+                            "numReviews": {
+                                "$numberInt": "3945"
+                            }
+                        },
+                        "lastUpdated": {
+                            "$date": {
+                                "$numberLong": "1440094181000"
+                            }
+                        },
+                        "dvd": {
+                            "$date": {
+                                "$numberLong": "1041897600000"
+                            }
+                        },
+                        "critic": {
+                            "meter": {
+                                "$numberInt": "91"
+                            },
+                            "rating": {
+                                "$numberDouble": "8.4"
+                            },
+                            "numReviews": {
+                                "$numberInt": "23"
+                            }
+                        },
+                        "production": "Paramount Pictures",
+                        "fresh": {
+                            "$numberInt": "21"
+                        },
+                        "rotten": {
+                            "$numberInt": "2"
+                        }
+                    },
+                    "fullplot": "High class European thief Gaston Monescu meets his soul mate Lily, a pickpocket masquerading as a countess. The two join forces and come under the employ of Mme. Colet, the beautiful owner of the Colet perfume company. Gaston works as Mme. Colet's personal secretary under the alias Monsieur La Valle. Rumors start to fly as 'M. La Valle' steals Mme. Colet away from her other suitors. When the secret of his true identity catches up to him, Gaston is caught between the two beautiful women.",
+                    "imdb": {
+                        "rating": {
+                            "$numberDouble": "8.2"
+                        },
+                        "votes": {
+                            "$numberInt": "9101"
+                        },
+                        "id": {
+                            "$numberInt": "23622"
+                        }
+                    },
+                    "@timestamp": "2015-09-17T01:50:05.933000000+05:30",
+                    "plot": "A gentleman thief and a lady pickpocket join forces to con a beautiful perfume company owner. Romantic entanglements and jealousies confuse the scheme.",
+                    "genres": [
+                        "Comedy",
+                        "Crime",
+                        "Romance"
+                    ],
+                    "awards": {
+                        "wins": {
+                            "$numberInt": "2"
+                        },
+                        "text": "2 wins.",
+                        "nominations": {
+                            "$numberInt": "0"
+                        }
+                    },
+                    "lastupdated": "2015-09-17 01:50:05.933000000",
+                    "poster": "https://m.media-amazon.com/images/M/MV5BY2E5ODgyYmQtY2Q0ZS00N2MyLWJhYzktYTliMWEyOWM2OGNiXkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_SY1000_SX677_AL_.jpg",
+                    "released": {
+                        "$date": {
+                            "$numberLong": "-1173830400000"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,1 @@
+jq 'del(._id)' -c movies.json > movies24.json

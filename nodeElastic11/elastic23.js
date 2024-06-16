@@ -3,6 +3,7 @@ const app = express();
 app.listen(42061, () => console.log('hammayya, 42061 lo choosko'));
 const data23 = require('./elasticData.json');
 const { Client } = require('@elastic/elasticsearch');
+const fs = require('fs').promises;
 // https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/introduction.html
 
 const client = new Client({
@@ -19,6 +20,28 @@ const client = new Client({
 })();
 
 /********************************** ROUTES *****************************/
+
+app.get('/loadMoviesWithShards', async (req, res) => {
+    const data = await fs.readFile('./movies24.json', 'utf-8');
+    var lines = data.split('\n');
+    // let createIndex23 = await client.indices.create({
+    //     index: 'eng_movies25', settings: {
+    //         number_of_shards: 5,
+    //         number_of_replicas: 3
+    //     }
+    // });
+    // // {"acknowledged":true,"shards_acknowledged":true,"index":"eng_movies25"}
+    // console.log("created Index23 ====> ", JSON.stringify(createIndex23));
+    console.log("length23 ===> ", lines.length)
+    for (var line = 0; line < 3; line++) {
+        console.log("line ===> ", lines[line])
+        // await client.index({
+        //     index: 'eng_movies25',
+        //     document: lines[line]
+        // });
+    }
+    res.send("data read")
+});
 
 app.get('/getData1', async (req, res) => {
     const searchResult = await client.search({

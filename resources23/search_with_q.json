@@ -1,0 +1,228 @@
+{
+    "took": 50,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 2,
+            "relation": "eq"
+        },
+        "max_score": 12.864893,
+        "hits": [
+            {
+                "_index": "eng_movies24",
+                "_id": "08mvHpABujRaLBZDFYJe",
+                "_score": 12.864893,
+                "_source": {
+                    "languages": [
+                        "German",
+                        "Turkish"
+                    ],
+                    "year": {
+                        "$numberInt": "2010"
+                    },
+                    "directors": [
+                        "Feo Aladag"
+                    ],
+                    "metacritic": {
+                        "$numberInt": "65"
+                    },
+                    "runtime": {
+                        "$numberInt": "119"
+                    },
+                    "writers": [
+                        "Feo Aladag"
+                    ],
+                    "countries": [
+                        "Germany"
+                    ],
+                    "title": "When We Leave",
+                    "type": "movie",
+                    "rated": "UNRATED",
+                    "cast": [
+                        "Sibel Kekilli",
+                        "Nizam Schiller",
+                        "Derya Alabora",
+                        "Settar Tanriègen"
+                    ],
+                    "tomatoes": {
+                        "viewer": {
+                            "meter": {
+                                "$numberInt": "80"
+                            },
+                            "rating": {
+                                "$numberDouble": "3.8"
+                            },
+                            "numReviews": {
+                                "$numberInt": "1269"
+                            }
+                        },
+                        "lastUpdated": {
+                            "$date": {
+                                "$numberLong": "1442077502000"
+                            }
+                        },
+                        "website": "http://whenweleave.com/",
+                        "dvd": {
+                            "$date": {
+                                "$numberLong": "1307404800000"
+                            }
+                        },
+                        "critic": {
+                            "meter": {
+                                "$numberInt": "74"
+                            },
+                            "rating": {
+                                "$numberDouble": "6.4"
+                            },
+                            "numReviews": {
+                                "$numberInt": "31"
+                            }
+                        },
+                        "production": "Olive Films",
+                        "boxOffice": "$18.9k",
+                        "fresh": {
+                            "$numberInt": "23"
+                        },
+                        "rotten": {
+                            "$numberInt": "8"
+                        }
+                    },
+                    "fullplot": "German-born Umay flees her oppressive marriage in Istanbul, taking her young son Cem with her. She hopes to find a better life with her family in Berlin, but her unexpected arrival creates intense conflict. Her family is trapped in their conventions, torn between their love for her and the traditional values of their community. Ultimately they decide to return Cem to his father in Turkey. To keep her son, Umay is forced to move again. She finds the inner strength to build a new life for herself and Cem, but her need for her family's love drives her to a series of ill-fated attempts at reconciliation. What Umay doesn't realize is just how deep the wounds have gone and how dangerous her struggle for self-determination has become...",
+                    "imdb": {
+                        "rating": {
+                            "$numberDouble": "7.6"
+                        },
+                        "votes": {
+                            "$numberInt": "4113"
+                        },
+                        "id": {
+                            "$numberInt": "1288376"
+                        }
+                    },
+                    "@timestamp": "2015-09-15T02:11:45.503000000+05:30",
+                    "plot": "Umay is a young woman of Turkish descent, fighting for an independent and self-determined life in Germany against the resistance of her family. Her struggle initiates a dynamic, which results in a life-threatening situation.",
+                    "genres": [
+                        "Drama"
+                    ],
+                    "awards": {
+                        "wins": {
+                            "$numberInt": "30"
+                        },
+                        "text": "30 wins & 12 nominations.",
+                        "nominations": {
+                            "$numberInt": "12"
+                        }
+                    },
+                    "lastupdated": "2015-09-15 02:11:45.503000000",
+                    "poster": "https://m.media-amazon.com/images/M/MV5BMTQ0MDYyNjI2Ml5BMl5BanBnXkFtZTcwMDkzNTQwNA@@._V1_SY1000_SX677_AL_.jpg",
+                    "released": {
+                        "$date": {
+                            "$numberLong": "1296172800000"
+                        }
+                    }
+                }
+            },
+            {
+                "_index": "eng_movies24",
+                "_id": "OsmvHpABujRaLBZDGpa_",
+                "_score": 8.175654,
+                "_source": {
+                    "languages": [
+                        "German",
+                        "English",
+                        "Pushto",
+                        "Dari"
+                    ],
+                    "year": {
+                        "$numberInt": "2014"
+                    },
+                    "directors": [
+                        "Feo Aladag"
+                    ],
+                    "runtime": {
+                        "$numberInt": "98"
+                    },
+                    "writers": [
+                        "Feo Aladag (screenplay)",
+                        "Matthias Kock (screenplay)",
+                        "Judith Kaufmann (screenplay)"
+                    ],
+                    "countries": [
+                        "Germany"
+                    ],
+                    "num_mflix_comments": {
+                        "$numberInt": "1"
+                    },
+                    "title": "Inbetween Worlds",
+                    "type": "movie",
+                    "cast": [
+                        "Ronald Zehrfeld",
+                        "Mohsin Ahmady",
+                        "Saida Barmaki",
+                        "Salam Yousefzai"
+                    ],
+                    "tomatoes": {
+                        "viewer": {
+                            "rating": {
+                                "$numberDouble": "2.5"
+                            },
+                            "numReviews": {
+                                "$numberInt": "41"
+                            }
+                        },
+                        "lastUpdated": {
+                            "$date": {
+                                "$numberLong": "1442342988000"
+                            }
+                        },
+                        "dvd": {
+                            "$date": {
+                                "$numberLong": "1446422400000"
+                            }
+                        },
+                        "production": "Vertical Entertainment"
+                    },
+                    "fullplot": "Jesper is a soldier in the German army. Although his brother was killed whilst serving in Afghanistan, he nevertheless reports for a new tour of duty in this war zone. He and his unit are to protect a remote village from the Taliban. One of the people accompanying Jesper is a young interpreter, Tarik, whose job includes mediating between soldiers and villagers. Both sides have a hard time trying to overcome the differences in their respective ways of life. Jesper must gain the trust of both villagers and the allied Arbaki militia and his nerves are soon on edge. He finds himself increasingly morally conflicted as a result of his superiors' orders. His association with the Germans means Tarik's life is constantly under threat, but when Tarik begins to fear for his sister's safety, Jesper has to make a decision. Feo Aladag uses this portrait of an ISAF soldier in Afghanistan to explore questions of affinity and otherness, trust and failure. How humane can your actions be if you are bound by the workings of a strict military bureaucracy? What remains of the ideals of human dignity when you are caught up in a daily struggle for survival?",
+                    "imdb": {
+                        "rating": {
+                            "$numberDouble": "6.3"
+                        },
+                        "votes": {
+                            "$numberInt": "313"
+                        },
+                        "id": {
+                            "$numberInt": "3032028"
+                        }
+                    },
+                    "@timestamp": "2015-08-26T00:37:41.337000000+05:30",
+                    "plot": "Jesper is a soldier in the German army. Although his brother was killed whilst serving in Afghanistan, he nevertheless reports for a new tour of duty in this war zone. He and his unit are ...",
+                    "genres": [
+                        "Drama"
+                    ],
+                    "awards": {
+                        "wins": {
+                            "$numberInt": "3"
+                        },
+                        "text": "3 wins & 4 nominations.",
+                        "nominations": {
+                            "$numberInt": "4"
+                        }
+                    },
+                    "lastupdated": "2015-08-26 00:37:41.337000000",
+                    "poster": "https://m.media-amazon.com/images/M/MV5BNzM1MzEzNTkyMF5BMl5BanBnXkFtZTgwNDQ0NTM1MTE@._V1_SY1000_SX677_AL_.jpg",
+                    "released": {
+                        "$date": {
+                            "$numberLong": "1395878400000"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

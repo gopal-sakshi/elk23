@@ -1,0 +1,545 @@
+{
+    "_nodes": {
+        "total": 1,
+        "successful": 1,
+        "failed": 0
+    },
+    "cluster_name": "docker-cluster",
+    "cluster_uuid": "ezrhxtvaTbG-bhXdms1bLw",
+    "timestamp": 1718543543096,
+    "status": "yellow",
+    "indices": {
+        "count": 32,
+        "shards": {
+            "total": 32,
+            "primaries": 32,
+            "replication": 0.0,
+            "index": {
+                "shards": {
+                    "min": 1,
+                    "max": 1,
+                    "avg": 1.0
+                },
+                "primaries": {
+                    "min": 1,
+                    "max": 1,
+                    "avg": 1.0
+                },
+                "replication": {
+                    "min": 0.0,
+                    "max": 0.0,
+                    "avg": 0.0
+                }
+            }
+        },
+        "docs": {
+            "count": 42970,
+            "deleted": 67
+        },
+        "store": {
+            "size_in_bytes": 57121393,
+            "total_data_set_size_in_bytes": 57121393,
+            "reserved_in_bytes": 0
+        },
+        "fielddata": {
+            "memory_size_in_bytes": 0,
+            "evictions": 0,
+            "global_ordinals": {
+                "build_time_in_millis": 0
+            }
+        },
+        "query_cache": {
+            "memory_size_in_bytes": 0,
+            "total_count": 0,
+            "hit_count": 0,
+            "miss_count": 0,
+            "cache_size": 0,
+            "cache_count": 0,
+            "evictions": 0
+        },
+        "completion": {
+            "size_in_bytes": 0
+        },
+        "segments": {
+            "count": 50,
+            "memory_in_bytes": 0,
+            "terms_memory_in_bytes": 0,
+            "stored_fields_memory_in_bytes": 0,
+            "term_vectors_memory_in_bytes": 0,
+            "norms_memory_in_bytes": 0,
+            "points_memory_in_bytes": 0,
+            "doc_values_memory_in_bytes": 0,
+            "index_writer_memory_in_bytes": 0,
+            "version_map_memory_in_bytes": 0,
+            "fixed_bit_set_memory_in_bytes": 424,
+            "max_unsafe_auto_id_timestamp": 1718538693552,
+            "file_sizes": {}
+        },
+        "mappings": {
+            "total_field_count": 6684,
+            "total_deduplicated_field_count": 4758,
+            "total_deduplicated_mapping_size_in_bytes": 38809,
+            "field_types": [
+                {
+                    "name": "alias",
+                    "count": 76,
+                    "index_count": 1,
+                    "script_count": 0
+                },
+                {
+                    "name": "binary",
+                    "count": 1,
+                    "index_count": 1,
+                    "script_count": 0
+                },
+                {
+                    "name": "boolean",
+                    "count": 116,
+                    "index_count": 14,
+                    "script_count": 0
+                },
+                {
+                    "name": "byte",
+                    "count": 3,
+                    "index_count": 3,
+                    "script_count": 0
+                },
+                {
+                    "name": "constant_keyword",
+                    "count": 3,
+                    "index_count": 1,
+                    "script_count": 0
+                },
+                {
+                    "name": "date",
+                    "count": 287,
+                    "index_count": 18,
+                    "script_count": 0
+                },
+                {
+                    "name": "date_nanos",
+                    "count": 2,
+                    "index_count": 1,
+                    "script_count": 0
+                },
+                {
+                    "name": "date_range",
+                    "count": 7,
+                    "index_count": 7,
+                    "script_count": 0
+                },
+                {
+                    "name": "double",
+                    "count": 11,
+                    "index_count": 4,
+                    "script_count": 0
+                },
+                {
+                    "name": "flattened",
+                    "count": 40,
+                    "index_count": 7,
+                    "script_count": 0
+                },
+                {
+                    "name": "float",
+                    "count": 53,
+                    "index_count": 8,
+                    "script_count": 0
+                },
+                {
+                    "name": "geo_point",
+                    "count": 27,
+                    "index_count": 5,
+                    "script_count": 0
+                },
+                {
+                    "name": "half_float",
+                    "count": 12,
+                    "index_count": 1,
+                    "script_count": 0
+                },
+                {
+                    "name": "integer",
+                    "count": 7,
+                    "index_count": 3,
+                    "script_count": 0
+                },
+                {
+                    "name": "ip",
+                    "count": 52,
+                    "index_count": 4,
+                    "script_count": 0
+                },
+                {
+                    "name": "keyword",
+                    "count": 3889,
+                    "index_count": 22,
+                    "script_count": 0
+                },
+                {
+                    "name": "long",
+                    "count": 513,
+                    "index_count": 15,
+                    "script_count": 0
+                },
+                {
+                    "name": "match_only_text",
+                    "count": 270,
+                    "index_count": 3,
+                    "script_count": 0
+                },
+                {
+                    "name": "nested",
+                    "count": 40,
+                    "index_count": 4,
+                    "script_count": 0
+                },
+                {
+                    "name": "object",
+                    "count": 1114,
+                    "index_count": 18,
+                    "script_count": 0
+                },
+                {
+                    "name": "rank_features",
+                    "count": 1,
+                    "index_count": 1,
+                    "script_count": 0
+                },
+                {
+                    "name": "scaled_float",
+                    "count": 24,
+                    "index_count": 6,
+                    "script_count": 0
+                },
+                {
+                    "name": "text",
+                    "count": 62,
+                    "index_count": 11,
+                    "script_count": 0
+                },
+                {
+                    "name": "version",
+                    "count": 8,
+                    "index_count": 8,
+                    "script_count": 0
+                },
+                {
+                    "name": "wildcard",
+                    "count": 66,
+                    "index_count": 3,
+                    "script_count": 0
+                }
+            ],
+            "runtime_field_types": []
+        },
+        "analysis": {
+            "char_filter_types": [],
+            "tokenizer_types": [],
+            "filter_types": [],
+            "analyzer_types": [],
+            "built_in_char_filters": [],
+            "built_in_tokenizers": [],
+            "built_in_filters": [],
+            "built_in_analyzers": [
+                {
+                    "name": "english",
+                    "count": 1,
+                    "index_count": 1
+                }
+            ],
+            "synonyms": {}
+        },
+        "versions": [
+            {
+                "version": "8100299",
+                "index_count": 32,
+                "primary_shard_count": 32,
+                "total_primary_bytes": 57121393
+            }
+        ],
+        "search": {
+            "total": 1948,
+            "queries": {
+                "match_phrase": 3,
+                "bool": 1921,
+                "terms": 778,
+                "match": 33,
+                "match_all": 1,
+                "range": 869,
+                "exists": 998,
+                "term": 1159,
+                "simple_query_string": 151
+            },
+            "sections": {
+                "runtime_mappings": 8,
+                "query": 1936,
+                "terminate_after": 1,
+                "_source": 30,
+                "pit": 9,
+                "fields": 8,
+                "aggs": 163
+            }
+        },
+        "dense_vector": {
+            "value_count": 0
+        }
+    },
+    "nodes": {
+        "count": {
+            "total": 1,
+            "coordinating_only": 0,
+            "data": 1,
+            "data_cold": 1,
+            "data_content": 1,
+            "data_frozen": 1,
+            "data_hot": 1,
+            "data_warm": 1,
+            "index": 0,
+            "ingest": 1,
+            "master": 1,
+            "ml": 1,
+            "remote_cluster_client": 1,
+            "search": 0,
+            "transform": 1,
+            "voting_only": 0
+        },
+        "versions": [
+            "8.10.2"
+        ],
+        "os": {
+            "available_processors": 6,
+            "allocated_processors": 6,
+            "names": [
+                {
+                    "name": "Linux",
+                    "count": 1
+                }
+            ],
+            "pretty_names": [
+                {
+                    "pretty_name": "Ubuntu 20.04.6 LTS",
+                    "count": 1
+                }
+            ],
+            "architectures": [
+                {
+                    "arch": "amd64",
+                    "count": 1
+                }
+            ],
+            "mem": {
+                "total_in_bytes": 16084430848,
+                "adjusted_total_in_bytes": 16084430848,
+                "free_in_bytes": 3472932864,
+                "used_in_bytes": 12611497984,
+                "free_percent": 22,
+                "used_percent": 78
+            }
+        },
+        "process": {
+            "cpu": {
+                "percent": 0
+            },
+            "open_file_descriptors": {
+                "min": 548,
+                "max": 548,
+                "avg": 548
+            }
+        },
+        "jvm": {
+            "max_uptime_in_millis": 4520477,
+            "versions": [
+                {
+                    "version": "20.0.2",
+                    "vm_name": "OpenJDK 64-Bit Server VM",
+                    "vm_version": "20.0.2+9-78",
+                    "vm_vendor": "Oracle Corporation",
+                    "bundled_jdk": true,
+                    "using_bundled_jdk": true,
+                    "count": 1
+                }
+            ],
+            "mem": {
+                "heap_used_in_bytes": 336191088,
+                "heap_max_in_bytes": 536870912
+            },
+            "threads": 98
+        },
+        "fs": {
+            "total_in_bytes": 250375106560,
+            "free_in_bytes": 79217688576,
+            "available_in_bytes": 66424799232
+        },
+        "plugins": [],
+        "network_types": {
+            "transport_types": {
+                "netty4": 1
+            },
+            "http_types": {
+                "netty4": 1
+            }
+        },
+        "discovery_types": {
+            "single-node": 1
+        },
+        "packaging_types": [
+            {
+                "flavor": "default",
+                "type": "docker",
+                "count": 1
+            }
+        ],
+        "ingest": {
+            "number_of_pipelines": 9,
+            "processor_stats": {
+                "attachment": {
+                    "count": 0,
+                    "failed": 0,
+                    "current": 0,
+                    "time_in_millis": 0
+                },
+                "convert": {
+                    "count": 0,
+                    "failed": 0,
+                    "current": 0,
+                    "time_in_millis": 0
+                },
+                "csv": {
+                    "count": 0,
+                    "failed": 0,
+                    "current": 0,
+                    "time_in_millis": 0
+                },
+                "date": {
+                    "count": 0,
+                    "failed": 0,
+                    "current": 0,
+                    "time_in_millis": 0
+                },
+                "date_index_name": {
+                    "count": 0,
+                    "failed": 0,
+                    "current": 0,
+                    "time_in_millis": 0
+                },
+                "dot_expander": {
+                    "count": 0,
+                    "failed": 0,
+                    "current": 0,
+                    "time_in_millis": 0
+                },
+                "foreach": {
+                    "count": 0,
+                    "failed": 0,
+                    "current": 0,
+                    "time_in_millis": 0
+                },
+                "geoip": {
+                    "count": 0,
+                    "failed": 0,
+                    "current": 0,
+                    "time_in_millis": 0
+                },
+                "gsub": {
+                    "count": 0,
+                    "failed": 0,
+                    "current": 0,
+                    "time_in_millis": 0
+                },
+                "inference": {
+                    "count": 0,
+                    "failed": 0,
+                    "current": 0,
+                    "time_in_millis": 0
+                },
+                "json": {
+                    "count": 0,
+                    "failed": 0,
+                    "current": 0,
+                    "time_in_millis": 0
+                },
+                "pipeline": {
+                    "count": 0,
+                    "failed": 0,
+                    "current": 0,
+                    "time_in_millis": 0
+                },
+                "remove": {
+                    "count": 0,
+                    "failed": 0,
+                    "current": 0,
+                    "time_in_millis": 0
+                },
+                "rename": {
+                    "count": 0,
+                    "failed": 0,
+                    "current": 0,
+                    "time_in_millis": 0
+                },
+                "set": {
+                    "count": 0,
+                    "failed": 0,
+                    "current": 0,
+                    "time_in_millis": 0
+                },
+                "split": {
+                    "count": 0,
+                    "failed": 0,
+                    "current": 0,
+                    "time_in_millis": 0
+                },
+                "trim": {
+                    "count": 0,
+                    "failed": 0,
+                    "current": 0,
+                    "time_in_millis": 0
+                },
+                "uri_parts": {
+                    "count": 0,
+                    "failed": 0,
+                    "current": 0,
+                    "time_in_millis": 0
+                },
+                "user_agent": {
+                    "count": 0,
+                    "failed": 0,
+                    "current": 0,
+                    "time_in_millis": 0
+                }
+            }
+        },
+        "indexing_pressure": {
+            "memory": {
+                "current": {
+                    "combined_coordinating_and_primary_in_bytes": 0,
+                    "coordinating_in_bytes": 0,
+                    "primary_in_bytes": 0,
+                    "replica_in_bytes": 0,
+                    "all_in_bytes": 0
+                },
+                "total": {
+                    "combined_coordinating_and_primary_in_bytes": 0,
+                    "coordinating_in_bytes": 0,
+                    "primary_in_bytes": 0,
+                    "replica_in_bytes": 0,
+                    "all_in_bytes": 0,
+                    "coordinating_rejections": 0,
+                    "primary_rejections": 0,
+                    "replica_rejections": 0
+                },
+                "limit_in_bytes": 0
+            }
+        }
+    },
+    "snapshots": {
+        "current_counts": {
+            "snapshots": 0,
+            "shard_snapshots": 0,
+            "snapshot_deletions": 0,
+            "concurrent_operations": 0,
+            "cleanups": 0
+        },
+        "repositories": {}
+    }
+}
