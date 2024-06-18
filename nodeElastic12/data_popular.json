@@ -1,0 +1,152 @@
+[
+    {
+        "id": "5750845735dff7db71032593",
+        "title": "A Tale of Two cities",
+        "number": 11,
+        "pages": "277-302",
+        "sales": "200",
+        "year": 1859,
+        "authors": [
+            {
+                "firstname": "Dickens",
+                "lastname": "Charles",
+                "institution": "Snowpoke",
+                "email": "cdickens@Snowpoke.us"
+            }
+        ],
+        "summary": "A Tale of Two Cities is a historical novel published in 1859 by Charles Dickens, set in London and Paris before and during the French Revolution. The novel tells the story of the French Doctor Manette",
+        "link": "https://en.wikipedia.org/wiki/A_Tale_of_Two_Cities",
+        "genre": [
+            "history",
+            "fiction"
+        ],
+        "originalLang": "English",
+        "body": ""
+    },
+    {
+        "id": "575084570b63f5fd28d23f48",
+        "title": "",
+        "number": "",
+        "pages": "",
+        "sales": "",
+        "year": "",
+        "authors": [],
+        "summary": "",
+        "link": "",
+        "genre": [],
+        "originalLang": "English",
+        "body": ""
+    },
+    {
+        "id": "575084573ae731ef0dc821c6",
+        "title": "",
+        "number": "",
+        "pages": "",
+        "sales": "",
+        "year": "",
+        "authors": [],
+        "summary": "",
+        "link": "",
+        "genre": [],
+        "originalLang": "English",
+        "body": ""
+    },
+    {
+        "id": "5750845793616c81783d5f34",
+        "title": "",
+        "number": "",
+        "pages": "",
+        "sales": "",
+        "year": "",
+        "authors": [],
+        "summary": "",
+        "link": "",
+        "genre": [],
+        "originalLang": "English",
+        "body": ""
+    },
+    {
+        "id": "5750845788d8f79a9215a9f2",
+        "title": "",
+        "number": "",
+        "pages": "",
+        "sales": "",
+        "year": "",
+        "authors": [],
+        "summary": "",
+        "link": "",
+        "genre": [],
+        "originalLang": "English",
+        "body": ""
+    },
+    {
+        "id": "57508457fb82818389e7eaee",
+        "title": "",
+        "number": "",
+        "pages": "",
+        "sales": "",
+        "year": "",
+        "authors": [],
+        "summary": "",
+        "link": "",
+        "genre": [],
+        "originalLang": "English",
+        "body": ""
+    },
+    {
+        "id": "57508457c01fafb70bc589b5",
+        "title": "",
+        "number": "",
+        "pages": "",
+        "sales": "",
+        "year": "",
+        "authors": [],
+        "summary": "",
+        "link": "",
+        "genre": [],
+        "originalLang": "English",
+        "body": ""
+    },
+    {
+        "id": "57508457556e30622882ba58",
+        "title": "",
+        "number": "",
+        "pages": "",
+        "sales": "",
+        "year": "",
+        "authors": [],
+        "summary": "",
+        "link": "",
+        "genre": [],
+        "originalLang": "English",
+        "body": ""
+    },
+    {
+        "id": "5750845795d9086711716efd",
+        "title": "",
+        "number": "",
+        "pages": "",
+        "sales": "",
+        "year": "",
+        "authors": [],
+        "summary": "",
+        "link": "",
+        "genre": [],
+        "originalLang": "English",
+        "body": ""
+    },
+    {
+        "id": "575084572f8d01d171f39994",
+        "title": "",
+        "number": "",
+        "pages": "",
+        "sales": "",
+        "year": "",
+        "authors": [],
+        "summary": "",
+        "link": "",
+        "genre": [],
+        "originalLang": "English",
+        "body": ""
+    }
+]

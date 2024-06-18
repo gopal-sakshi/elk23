@@ -1,0 +1,380 @@
+[
+    {
+        "playerName": "Luka Modric",
+        "position": "Midfield",
+        "otherDetails": {
+            "country": "Croatia",
+            "otherClubs": [
+                "Dynamo",
+                "Spurs"
+            ]
+        },
+        "awards": {
+            "balonDor": [2018],
+            "uclSquad": [2015, 2016, 2017, 2018]
+        },
+        "skills": {
+            "pace": 75,
+            "shooting": 70,
+            "passing": 88,
+            "dribbling": 89,
+            "tackling": 80,
+            "defence": 70,
+            "physicality": 25 
+        },
+        "presentClub": "Real Madrid"
+    },
+    {
+        "playerName": "Karim Benzema",
+        "position": "Striker",
+        "otherDetails": {
+            "country": "France",
+            "otherClubs": [
+                "Lyon"
+            ]
+        },
+        "awards": {
+            "balonDor": [2022],
+            "uefaPlayer": [2022]
+        },
+        "skills": {
+            "pace": 80,
+            "shooting": 81,
+            "passing": 83,
+            "dribbling": 85,
+            "tackling": 40,
+            "defence": 30,
+            "physicality": 30 
+        },
+        "presentClub": "Real Madrid"
+    },
+    {
+        "playerName": "Toni Kroos",
+        "position": "Midfield",
+        "otherDetails": {
+            "country": "Germany",
+            "otherClubs": [
+                "Bayern Munich"
+            ]
+        },
+        "awards": {
+            "uclSquad": [2015, 2017, 2018]
+        },
+        "skills": {
+            "pace": 70,
+            "shooting": 72,
+            "passing": 90,
+            "dribbling": 81,
+            "tackling": 50,
+            "defence": 55,
+            "physicality": 40 
+        },
+        "presentClub": "Real Madrid"
+    },
+    {
+        "playerName": "Xabi Alonso",
+        "position": "Midfield",
+        "otherDetails": {
+            "country": "Spain",
+            "otherClubs": [
+                "Real Sociedad",
+                "Liverpool",
+                "Bayern Munich"
+            ]
+        },
+        "awards": { },
+        "skills": {
+            "pace": 60,
+            "shooting": 65,
+            "passing": 81,
+            "dribbling": 70,
+            "tackling": 80,
+            "defence": 78,
+            "physicality": 75 
+        },
+        "presentClub": "Real Madrid"
+    },
+    {
+        "playerName": "Ceballos",
+        "position": "Midfield",
+        "otherDetails": {
+            "country": "Uruguay",
+            "otherClubs": []
+        },
+        "awards": { },
+        "skills": {
+            "pace": 70,
+            "shooting": 60,
+            "passing": 63,
+            "dribbling": 67,
+            "tackling": 70,
+            "defence": 62,
+            "physicality": 54 
+        },
+        "presentClub": "Real Madrid"
+    },
+    {
+        "playerName": "Lewandowski",
+        "position": "Striker",
+        "otherDetails": {
+            "country": "Poland",
+            "otherClubs": [
+                "Bayern Munich",
+                "Dortmund"
+            ]
+        },
+        "awards": {
+            "fifaPlayer": [2021]
+        },
+        "skills": {
+            "pace": 79,
+            "shooting": 86,
+            "passing": 84,
+            "dribbling": 68,
+            "tackling": 20,
+            "defence": 10,
+            "physicality": 45 
+        },
+        "presentClub": "Barcelona"
+    },
+    {
+        "playerName": "Kaka",
+        "position": "Midfield",
+        "otherDetails": {
+            "country": "Brazil",
+            "otherClubs": [
+                "Real Madrid",
+                "Sao Paulo"
+            ]
+        },
+        "awards": {
+            "uclSquad": [2005, 2007],
+            "balonDor": [2007],
+            "fifaPlayer": [2007],
+            "uefaPlayer": [2007]
+        },
+        "skills": {
+            "pace": 88,
+            "shooting": 85,
+            "passing": 80,
+            "dribbling": 73,
+            "tackling": 39,
+            "defence": 17,
+            "physicality": 22 
+        },
+        "presentClub": "Milan"
+    },
+    {
+        "playerName": "Morata",
+        "position": "Striker",
+        "otherDetails": {
+            "country": "Spain",
+            "otherClubs": [
+                "Real Madrid",
+                "Juventus"
+            ]
+        },
+        "awards": { },
+        "skills": {
+            "pace": 69,
+            "shooting": 71,
+            "passing": 76,
+            "dribbling": 74,
+            "tackling": 53,
+            "defence": 59,
+            "physicality": 77 
+        },
+        "presentClub": "Atletico"
+    },
+    {
+        "playerName": "Araujo",
+        "position": "Defence",
+        "otherDetails": {
+            "country": "Uruguay",
+            "otherClubs": [
+                "Real Sociedad",
+                "Liverpool",
+                "Bayern Munich"
+            ]
+        },
+        "skills": {
+            "pace": 74,
+            "shooting": 18,
+            "passing": 24,
+            "dribbling": 33,
+            "tackling": 85,
+            "defence": 88,
+            "physicality": 82 
+        },
+        "presentClub": "Barcelona"
+    },
+    {
+        "playerName": "Sergio Busquets",
+        "position": "Midfield",
+        "otherDetails": {
+            "country": "Spain",
+            "otherClubs": []
+        },
+        "skills": {
+            "pace": 59,
+            "shooting": 61,
+            "passing": 84,
+            "dribbling": 79,
+            "tackling": 78,
+            "defence": 69,
+            "physicality": 54 
+        },
+        "presentClub": "Barcelona"
+    },
+    {
+        "playerName": "Courtois",
+        "position": "GK",
+        "otherDetails": {
+            "otherClubs": [
+                "Atletico",
+                "Chelsea"
+            ],
+            "country": "Belgium"
+        },
+        "skills": {
+            "pace": 10,
+            "shooting": 8,
+            "passing": 15,
+            "dribbling": 19,
+            "tackling": 7,
+            "defence": 8,
+            "physicality": 68 
+        },
+        "presentClub": "Real Madrid"
+    },
+    {
+        "playerName": "Koke",
+        "position": "Midfield",
+        "otherDetails": {
+            "country": "Spain",
+            "otherClubs": []
+        },
+        "skills": {
+            "pace": 73,
+            "shooting": 67,
+            "passing": 69,
+            "dribbling": 62,
+            "tackling": 69,
+            "defence": 61,
+            "physicality": 59 
+        },
+        "presentClub": "Atletico"
+    },
+    {
+        "playerName": "Puyol",
+        "position": "Defence",
+        "otherDetails": {
+            "country": "Spain",
+            "otherClubs": []
+        },
+        "skills": {
+            "pace": 71,
+            "shooting": 64,
+            "passing": 57,
+            "dribbling": 59,
+            "tackling": 87,
+            "defence": 87,
+            "physicality": 89 
+        },
+        "presentClub": "Barcelona"
+    },
+    {
+        "playerName": "Mbappe",
+        "position": "Left Winger",
+        "otherDetails": {
+            "country": "France",
+            "otherClubs": ["Monaco", "Real Madrid"]
+        },
+        "awards": { 
+            "uclSquad": [2017, 2020, 2021, 2022]
+        },
+        "skills": {
+            "pace": 89,
+            "shooting": 88,
+            "passing": 76,
+            "dribbling": 78,
+            "tackling": 62,
+            "defence": 43,
+            "physicality": 76 
+        },
+        "presentClub": "PSG"
+    },
+    {
+        "playerName": "Suarez",
+        "position": "Striker",
+        "otherDetails": {
+            "country": "Uruguay",
+            "otherClubs": ["Liverpool", "Ajax"]
+        },
+        "awards": {
+            "pichichi": [2016]
+        },
+        "skills": {
+            "pace": 84,
+            "shooting": 87,
+            "passing": 76,
+            "dribbling": 69,
+            "tackling": 54,
+            "defence": 43,
+            "physicality": 59 
+        },
+        "presentClub": "Barcelona"
+    },
+    {
+        "playerName": "Messi",
+        "position": "Striker",
+        "otherDetails": {
+            "country": "Argentina",
+            "otherClubs": ["Barcelona", "PSG"]
+        },
+        "awards": {
+            "pichichi": [2010, 2012, 2013, 2017, 2018, 2019, 2020, 2021],
+            "balonDor": [2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023],
+            "uclSquad": [2009, 2010, 2011, 2013, 2014, 2015],
+            "fifaPlayer": [2019, 2022, 2023],
+            "uefaPlayer": [2011, 2015],
+            "laureus": [2020, 2023]
+        },
+        "skills": {
+            "pace": 90,
+            "shooting": 91,
+            "passing": 73,
+            "dribbling": 94,
+            "tackling": 43,
+            "defence": 32,
+            "physicality": 21 
+        },
+        "presentClub": "Inter Miami"
+    },
+    {
+        "playerName": "CR7",
+        "position": "Striker",
+        "otherDetails": {
+            "country": "Portugal",
+            "otherClubs": ["ManU", "Real Madrid", "Juventus"]
+        },
+        "awards": {
+            "pichichi": [2011, 2014, 2015],
+            "balonDor": [2008, 2013, 2014, 2016, 2017],
+            "uclSquad": [2008, 2013, 2014, 2015, 2016, 2017, 2018],
+            "fifaPlayer": [2016, 2017],
+            "uefaPlayer": [2014, 2016, 2017],
+            "puskas": [2009]
+        },
+        "skills": {
+            "pace": 93,
+            "shooting": 94,
+            "passing": 82,
+            "dribbling": 81,
+            "tackling": 70,
+            "defence": 54,
+            "physicality": 80 
+        },
+        "presentClub": "Al Nassr"
+    }
+]

@@ -1,1 +1,6 @@
+sysctl -w vm.max_map_count=262144
 jq 'del(._id)' -c movies.json > movies24.json
+
+
+
+jq 'del(._id)' -c movies25.json > movies26.json
