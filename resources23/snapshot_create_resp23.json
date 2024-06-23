@@ -1,0 +1,71 @@
+{
+    "snapshot": {
+        "snapshot": "snapshot_blah_jun23",
+        "uuid": "Va_op8enTlGdIE7aH7nMbw",
+        "repository": "repository23",
+        "version_id": 7172299,
+        "version": "7.17.22",
+        "indices": [
+            "footballers_index12",
+            ".kibana_7.17.22_001",
+            ".ds-.logs-deprecation.elasticsearch-default-2024.06.17-000001",
+            ".ds-ilm-history-5-2024.06.17-000001",
+            ".async-search",
+            ".kibana-event-log-7.17.22-000001",
+            "eng_movies24",
+            ".apm-agent-configuration",
+            "library_index24",
+            ".tasks",
+            ".geoip_databases",
+            ".apm-custom-link",
+            "search-books24",
+            ".kibana_task_manager_7.17.22_001"
+        ],
+        "data_streams": [
+            "ilm-history-5",
+            ".logs-deprecation.elasticsearch-default"
+        ],
+        "include_global_state": true,
+        "state": "SUCCESS",
+        "start_time": "2024-06-23T06:06:52.184Z",
+        "start_time_in_millis": 1719122812184,
+        "end_time": "2024-06-23T06:06:54.385Z",
+        "end_time_in_millis": 1719122814385,
+        "duration_in_millis": 2201,
+        "failures": [],
+        "shards": {
+            "total": 19,
+            "failed": 0,
+            "successful": 19
+        },
+        "feature_states": [
+            {
+                "feature_name": "geoip",
+                "indices": [
+                    ".geoip_databases"
+                ]
+            },
+            {
+                "feature_name": "async_search",
+                "indices": [
+                    ".async-search"
+                ]
+            },
+            {
+                "feature_name": "kibana",
+                "indices": [
+                    ".kibana_task_manager_7.17.22_001",
+                    ".apm-custom-link",
+                    ".kibana_7.17.22_001",
+                    ".apm-agent-configuration"
+                ]
+            },
+            {
+                "feature_name": "tasks",
+                "indices": [
+                    ".tasks"
+                ]
+            }
+        ]
+    }
+}

@@ -1,18 +1,15 @@
 (function () {
 	'use strict';
 
-	const elasticsearch = require('elasticsearch');
-	const esClient = new elasticsearch.Client({
-		host: '127.0.0.1:9200',
-		log: 'error'
-	});
+    // UNABLE TO RUN THIS file ---- elastic search is crashing
+    // java.lang.OutOfMemoryError: Java heap space
+    // But, I can successfully run
+    const { esClient } = require('./exportClient');
 
 	const search = function search(index, body) {
 		return esClient.search({index: index, body: body});
 	};
 
-	// only for testing purposes
-	// all calls should be initiated through the module
 	const test = function test() {
 		let body = {
 			size: 20,

@@ -23,12 +23,23 @@ curl -XGET http://localhost:9200/_cat/indices?h=index,uuid,docs.count       <!--
 
 curl -XGET http://localhost:9200/_cat/nodes?v
 curl -XGET http://localhost:9200/_cluster/stats
+curl -XGET http://localhost:9200/_nodes/stats?pretty=true
+curl -XGET http://localhost:9200/_nodes/stats?pretty=true | grep heap
 
 ### health
 curl -XGET localhost:9200/_cat/health?v                             <!-- verbose -->
 curl -XGET 'http://localhost:9200/_cluster/health' | jq             <!-- json output -->
 
+
+curl -sS  "localhost:9200/_cat/nodes?h=heap*&v"
 <!-------------------------------------------------------------------->
+
+### snapshot & restore
+curl -XGET 'http://localhost:9200/_snapshot/repository23/_all?pretty'
+curl -XPUT "http://localhost:9200/_snapshot/repository23/snapshot_blah_jun23?wait_for_completion=true"
+cd /usr/share/elasticsearch/data/snapshots23            <!-- it seems snapshot got created -->
+<!-------------------------------------------------------------------->
+
 
 `info about index`
     health                  yellow | green | red
