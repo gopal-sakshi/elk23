@@ -1,18 +1,12 @@
 (function () {
 	'use strict';
 
-	const elasticsearch = require('elasticsearch');
-	const esClient = new elasticsearch.Client({
-		host: '127.0.0.1:9200',
-		log: 'error'
-	});
+    const { esClient } = require('./exportClient');
 
 	const suggest = function search(index, body) {
 		return esClient.suggest({index: index, body: body});
 	};
 
-	// only for testing purposes
-	// all calls should be initiated through the module
 	const test = function test() {
 		let body = {
 			text: 'dolo lore fugi',
@@ -23,12 +17,11 @@
 			}
 		};
 
-		console.log(`retrieving term suggestions for "${body.text}"...`);
 		suggest('library_index24', body)
 		.then(results => {
-			console.log(`suggestions for each term are:`);
+			console.log(`suggestions23 for each term are =====> `);
 			results.titleSuggester.forEach((term, index) => {
-				console.log(`term ${++index}: ${term.text}`);
+				console.log(`term ${++index} ===>: ${term.text}`);
 				term.options.forEach((option, index) => console.log(`\t suggestion ${++index}: ${option.text}`));
 			});
 		})

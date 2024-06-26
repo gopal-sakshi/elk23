@@ -9,7 +9,7 @@
 
 	const test = function test() {
 		let body = {
-			size: 172,           // only get 20 documents
+			size: 172,           // only get 172 documents
 			from: 0,
 			query: {
 				match_all: {}
