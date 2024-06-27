@@ -4,7 +4,8 @@ curl localhost:9200/_settings
 ## shards
 curl -XGET http://localhost:9200/_cat/shards?v
 curl -XGET http://localhost:9200/_cat/shards/footballers_index12?v
-
+curl -XGET http://localhost:9200/_cat/shards/news_index25_5shards?v
+curl -XGET http://localhost:9200/_cat/shards/news_index25_5shards?node=es01&v
 
 ## indices
 curl -XGET http://localhost:9200/_cat/indices

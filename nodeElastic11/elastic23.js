@@ -19,7 +19,38 @@ const client = new Client({
 (async () => {
     const resp = await client.info();
     console.log("elastic client connection status ===> ", resp);
+
+    // RUN THIS ONLY ONCE to add news data with 5 shards
+    await addNews23();
 })();
+
+const addNews23 = async () => {
+    let createIndex23 = await client.indices.create({
+        index: 'news_index25_5shards', settings: {
+            number_of_shards: 5,
+            number_of_replicas: 3
+        }
+    });
+    const data1 = await fs.readFile('./news1.json', 'utf-8');
+    var lines = data1.split('\n');
+    for (var line = 0; line < (lines.length - 1); line++) {
+        console.log("inserting doc1  ===> ", line);
+        await client.index({
+            index: 'news_index25_5shards',
+            document: JSON.parse(lines[line])
+        });
+    }
+    const data2 = await fs.readFile('./news1.json', 'utf-8');
+    var lines = data2.split('\n');
+    for (var line = 0; line < (lines.length - 1); line++) {
+        console.log("inserting doc2  ===> ", line);
+        await client.index({
+            index: 'news_index25_5shards',
+            document: JSON.parse(lines[line])
+        });
+    }
+    console.log("finised loading all docs ====> ");
+}
 
 /********************************** ROUTES *****************************/
 
@@ -72,14 +103,6 @@ app.get('/getData1', async (req, res) => {
 
 app.get('/runQueries', (req, res) => {
     // https://github.com/behroozk/node-elasticsearch-tutorial
-    // GET
-
-    // PUT
-
-    // POST
-
-    // DELETE
-
 });
 
 app.post('/addBulk', async(req, res) => {

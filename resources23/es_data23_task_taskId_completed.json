@@ -1,0 +1,52 @@
+{
+    "completed": true,
+    "task": {
+        "node": "PjHHFuNTRe-7Sfb8jPbPjw",
+        "id": 1019937,
+        "type": "transport",
+        "action": "indices:data/write/reindex",
+        "status": {
+            "total": 541909,
+            "updated": 541909,
+            "created": 0,
+            "deleted": 0,
+            "batches": 542,
+            "version_conflicts": 0,
+            "noops": 0,
+            "retries": {
+                "bulk": 0,
+                "search": 0
+            },
+            "throttled_millis": 0,
+            "requests_per_second": -1.0,
+            "throttled_until_millis": 0
+        },
+        "description": "reindex from [ecommerce_index24] to [ecommerce_index24_mapping][_doc]",
+        "start_time_in_millis": 1719486906002,
+        "running_time_in_nanos": 47496517281,
+        "cancellable": true,
+        "cancelled": false,
+        "headers": {}
+    },
+    "response": {
+        "took": 47496,
+        "timed_out": false,
+        "total": 541909,
+        "updated": 541909,
+        "created": 0,
+        "deleted": 0,
+        "batches": 542,
+        "version_conflicts": 0,
+        "noops": 0,
+        "retries": {
+            "bulk": 0,
+            "search": 0
+        },
+        "throttled": "0s",
+        "throttled_millis": 0,
+        "requests_per_second": -1.0,
+        "throttled_until": "0s",
+        "throttled_until_millis": 0,
+        "failures": []
+    }
+}
