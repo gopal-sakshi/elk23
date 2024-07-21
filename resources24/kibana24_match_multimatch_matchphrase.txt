@@ -92,6 +92,7 @@ GET news_index24/_search
   }
 }
 ### multi_match ===> searches for Michelle Obama in 3 fields
+### multi_match ====> search for the same search terms in multiple fields at one time.
 ##########################################################
 
 

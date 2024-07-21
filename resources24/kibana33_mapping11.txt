@@ -44,7 +44,8 @@ PUT temp_index/_doc/2
 }
 ### say ===> _doc/1 ====>   "These pineapples are sourced from new zealand"
 ### say ===> _doc/3 ====>   "these mangoes are produced in new zealand"
-InvertedIndex           
+
+InvertedIndex   ---> tokens & list of docs that contain the said token         
 
 _____TERMMMMM_____                  ____DOC LIST____
     apples                              2                   "apples" text is present only in doc2
@@ -106,15 +107,55 @@ Since both field types require creating
 ===========================================================================
 
 client requirements
-- search for produce name, country of origin, description
-    full text search
-    bcoz -- no aggregation, exact search needed
-- identify top countries of origin with the most frequent purchase history
-    
-- sort produce by produce type(fruit or vegetable)
-- get the summary of monthly expense
+
+(A) search for produce name, country of origin, description
+- since client wont search terms exactly the way it is written in our documents
+- we have to have ----> full text search on these 3 fields
+- client doesnt want to run aggregation/sorting/exact-match ---> on description (I mean, who sorts based on description)
+- RESULT ====> description is text only; |||ly name field is text only (keyword not needed )
+
+(B) identify top countries of origin with the most frequent purchase history
+- we need aggregations on "country_of_origin"
+- map the field "country_of_origin" twice as text & keyword
 
 
-botanical_name:         
-country_of_origin:
-description:
+(C) sort produce by produce type(fruit or vegetable)
+- map the field produce_type ---> keyword only
+- coz, client wont need full text search for this field
+
+(D) get the summary of monthly expense
+- quantity * unit_price
+- see "runtime field"
+===========================================================================
+
+botanical_name & vendor_details
+- these fields arent used; 
+- we dont want either InvertedIndex (or) doc_values for these 2 fields
+- disabling this fields will save disk space & minimize number of fields in the mapping
+
+===========================================================================
+
+updated mapping23 ===>
+
+
+PUT temp_index_newMapping
+{
+    "mappings": {
+        "properties": {
+            "botanical_name": { "enabled": false },
+            "country_of_origin": {
+                "type": "text",
+                "fields": {
+                    "keyword": { "type": "keyword" }
+                }
+            },
+            "date_purchased": { "type": "date" },
+            "description": { "type": "text" },
+            "name": { "type": "text" },
+            "produce_type": { "type": "keyword" },
+            "quantity": { "type": "long" },
+            "unit_price": { "type": "float" },
+            "vendor_details": { "enabled": false }
+        }
+    }
+}

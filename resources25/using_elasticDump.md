@@ -13,12 +13,15 @@ other flags
     --searchBody="{\"query\":{\"range\":{\"Horsepower\": {\"gte\": "201", \"lte\": "300"}}}}"
     
   
-
-elasticdump \
-    --input=http://localhost:9200/sample_index \
-    --output=/Users/retina/Desktop/sample_file.json \
+npx elasticdump \
+    --input=http://localhost:9200/telugu_movies23 \
+    --output=/home/gopalakrishnas/Desktop/repos23/others23/elk23/tel_movies24.json \
     --type=data
 
+npx elasticdump \
+    --input=tel_movies24.json \
+    --output=http://localhost:9200/telugu_movies23 \
+    --type=data
 ============================================================================
 
 https://blog.logrocket.com/a-practical-guide-to-working-with-elasticdump/
