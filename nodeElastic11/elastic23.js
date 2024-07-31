@@ -22,6 +22,7 @@ const client = new Client({
 
     // RUN THIS ONLY ONCE to add news data with 5 shards
     await addNews23();
+    console.log("adding newss done ===>");
 })();
 
 const addNews23 = async () => {
