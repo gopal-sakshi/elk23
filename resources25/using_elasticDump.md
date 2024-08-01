@@ -19,8 +19,13 @@ npx elasticdump \
     --type=data
 
 npx elasticdump \
-    --input=tel_movies24.json \
+    --input=/home/gopal/Desktop/tel_movies23.json \
     --output=http://localhost:9200/telugu_movies23 \
+    --type=data
+
+npx elasticdump \
+    --input=/home/gopal/Desktop/eng_movies24.json \
+    --output=http://localhost:9200/eng_movies24 \
     --type=data
 ============================================================================
 

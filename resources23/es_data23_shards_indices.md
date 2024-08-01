@@ -13,8 +13,7 @@ curl -XGET http://localhost:9200/_cat/indices/eng_movies24?v        <!-- details
 curl -XGET http://localhost:9200/_cat/indices/footballers_index12?v
 curl -X GET "localhost:9200/_cat/indices/*24?v"         <!-- return only those indices that end with 24 (regex) -->
 curl -XGET http://localhost:9200/_cat/indices?h=index,uuid,docs.count       <!-- output only 3 columns -->
-
-
+curl -X DELETE "localhost:9200/news_index25__dontRUN_By_mistake?pretty"                          <!-- delete index -->
 
 
 <!-------------------------------------------------------------------->
