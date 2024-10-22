@@ -34,7 +34,7 @@
 	// only for testing purposes
 	// all calls should be initiated through the module
 	const test = function test() {
-		const articlesRaw = fs.readFileSync('data.json');
+		const articlesRaw = fs.readFileSync('nodeElastic12/data_short23.json');
 		const articles = JSON.parse(articlesRaw);
 		console.log(`items parsed from data file ======> ${articles.length}`);
 		bulkIndex('library_index24', articles);

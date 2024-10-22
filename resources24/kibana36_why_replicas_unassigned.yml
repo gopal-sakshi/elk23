@@ -1,0 +1,22 @@
+cluster.name: "docker-cluster"
+network.host: 0.0.0.0
+
+# minimum_master_nodes need to be explicitly set when bound on a public IP
+# # set to 1 to allow single node clusters
+# # Details: https://github.com/elastic/elasticsearch/pull/17288
+# discovery.zen.minimum_master_nodes: 1
+path.repo: ["/usr/share/elasticsearch/backup"]
+
+
+### this is to fix ---> low watermark cluster setting; shard unassigned error
+cluster.routing.allocation.disk.threshold_enabled: true
+cluster.routing.allocation.disk.watermark.flood_stage: 5gb
+cluster.routing.allocation.disk.watermark.low: 10gb
+cluster.routing.allocation.disk.watermark.high: 5gb
+
+# docker cp resources24/kibana36_why_replicas_unassigned.yml elastic26a-es01-1:/usr/share/elasticsearch/config/elasticsearch.yml
+# docker cp resources24/kibana36_why_replicas_unassigned.yml elastic26a-es02-1:/usr/share/elasticsearch/config/elasticsearch.yml
+# docker cp resources24/kibana36_why_replicas_unassigned.yml elastic26a-es03-1:/usr/share/elasticsearch/config/elasticsearch.yml
+
+### NOT WORKINGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+### TEMPORARILY ------------ use 

@@ -16,6 +16,8 @@ curl -X GET "localhost:9200/_cat/indices/*24?v"         <!-- return only those i
 curl -XGET http://localhost:9200/_cat/indices?h=index,uuid,docs.count       <!-- output only 3 columns -->
 curl -X DELETE "localhost:9200/news_index25__dontRUN_By_mistake?pretty"                          <!-- delete index -->
 
+curl -s -XGET "http://localhost:9200/_cat/indices/*,-.*?v"        <!-- hide all system indices -->
+curl -s -XGET "http://localhost:9200/_cat/indices/*,-temp*"     <!-- hide all indices that has temp -->
 
 <!-------------------------------------------------------------------->
 
@@ -27,6 +29,9 @@ curl -XGET http://localhost:9200/_cluster/stats
 curl -XGET http://localhost:9200/_nodes/stats?pretty=true
 curl -XGET http://localhost:9200/_nodes/stats?pretty=true > blah.json
 curl -XGET http://localhost:9200/_nodes/stats?pretty=true | grep heap
+
+curl -XGET "http://localhost:9200/_nodes/es02/stats"            <!-- info about es02 node alone -->
+
 
 ### health
 curl -XGET localhost:9200/_cat/health?v                             <!-- verbose -->

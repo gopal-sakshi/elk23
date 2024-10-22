@@ -1,0 +1,21 @@
+index                shard prirep state    docs  store ip         node
+news_index25_5shards 3     r      STARTED 41818 31.8mb 172.24.0.4 es03
+news_index25_5shards 3     p      STARTED 41818 31.8mb 172.24.0.2 es01
+news_index25_5shards 3     r      STARTED 41818 31.8mb 172.24.0.3 es02
+news_index25_5shards 4     r      STARTED 41812 31.8mb 172.24.0.4 es03
+news_index25_5shards 4     p      STARTED 41812 31.8mb 172.24.0.2 es01
+news_index25_5shards 4     r      STARTED 41812 31.8mb 172.24.0.3 es02
+news_index25_5shards 1     r      STARTED 42222 32.1mb 172.24.0.4 es03
+news_index25_5shards 1     p      STARTED 42222 32.1mb 172.24.0.2 es01
+news_index25_5shards 1     r      STARTED 42222 32.1mb 172.24.0.3 es02
+news_index25_5shards 2     r      STARTED 41737 31.7mb 172.24.0.4 es03
+news_index25_5shards 2     r      STARTED 41737 31.7mb 172.24.0.2 es01
+news_index25_5shards 2     p      STARTED 41737 31.7mb 172.24.0.3 es02
+news_index25_5shards 0     r      STARTED 41937 31.9mb 172.24.0.4 es03
+news_index25_5shards 0     p      STARTED 41937 31.9mb 172.24.0.2 es01
+news_index25_5shards 0     r      STARTED 41937 31.9mb 172.24.0.3 es02
+
+==================================================================================
+
+so, even if a node goes down...
+elastic will still have whole data...

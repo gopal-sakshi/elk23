@@ -11,7 +11,8 @@
         let mustQuery = [
             {
                 query_string: {
-                    query: '(authors.firstname:D* OR authors.lastname:H*) AND (title:excepteur)'
+                    // query: '(authors.firstname:D* OR authors.lastname:H*) AND (title:excepteur)'
+                    query: '(authors.firstname:Dianne) AND (title:excepteur)'
                 }
             }
         ];
@@ -19,7 +20,7 @@
             {
                 match: {
                     body: {
-                        query: 'Elit nisi fugiat dolore amet',
+                        query: 'asalu_index_lo_body_property_eh_leduuuuuuuu',
                     }
                 }
             }

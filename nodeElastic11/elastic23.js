@@ -91,10 +91,41 @@ app.post('/addFootballers', async (req, res) => {
 
 app.get('/getData1', async (req, res) => {
     const searchResult = await client.search({
-        index: 'search-books24',
+        index: 'eng_movies24',
         q: 'snow'
-    });  
-    console.log("search results23 ====> ", searchResult.hits.hits);
+    });
+    res.send({
+        info: 'check chesko, results ento',
+        data23: searchResult.hits.hits
+    });
+});
+
+app.get('/getData2', async (req, res) => {
+    let mustQuery = [
+        { query_string: { query: '(authors.firstname:D* OR authors.lastname:H*) AND (title:excepteur)' } }
+    ];
+    let shouldQuery = [
+        { match: { fullplot: { query: 'Best jewelry, clothes, shoes', } } }
+    ];
+    let mustNotQuery = [
+        { range: { year: { lte: 2010, gte: 1990 } } }
+    ];
+    let body23 = {
+        size: 5,
+        from: 0,
+        query: {
+            bool: {
+                must: mustQuery,
+                should: shouldQuery,
+                must_not: mustNotQuery
+            }
+        }
+    };
+
+    const searchResult = await client.search({
+        index: 'eng_movies24',
+        body: body23
+    });
     res.send({
         info: 'check chesko, results ento',
         data23: searchResult.hits.hits

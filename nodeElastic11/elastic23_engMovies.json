@@ -1,0 +1,89 @@
+[
+    {
+        "_index": "eng_movies24",
+        "_type": "_doc",
+        "_id": "VcmvHpABujRaLBZDFYbX",
+        "_score": 1.0,
+        "_source": {
+            "languages": [
+                "Polish"
+            ],
+            "year": {
+                "$numberInt": "2009"
+            },
+            "directors": [
+                "Katarzyna Roslaniec"
+            ],
+            "runtime": {
+                "$numberInt": "77"
+            },
+            "writers": [
+                "Katarzyna Roslaniec (screenplay)"
+            ],
+            "countries": [
+                "Poland"
+            ],
+            "num_mflix_comments": {
+                "$numberInt": "2"
+            },
+            "title": "Mall Girls",
+            "type": "movie",
+            "cast": [
+                "Anna Karczmarczyk",
+                "Dagmara Krasowska",
+                "Dominika Gwit",
+                "Magdalena Ciurzynska"
+            ],
+            "tomatoes": {
+                "viewer": {
+                    "meter": {
+                        "$numberInt": "36"
+                    },
+                    "rating": {
+                        "$numberInt": "3"
+                    },
+                    "numReviews": {
+                        "$numberInt": "279"
+                    }
+                },
+                "lastUpdated": {
+                    "$date": {
+                        "$numberLong": "1441136684000"
+                    }
+                }
+            },
+            "fullplot": "Shopping malls - today's place of creating desires. Best jewelry, clothes, shoes. Unaffordable by young girls, but they work to get themselves sponsors for new items",
+            "imdb": {
+                "rating": {
+                    "$numberDouble": "5.5"
+                },
+                "votes": {
+                    "$numberInt": "1096"
+                },
+                "id": {
+                    "$numberInt": "1499228"
+                }
+            },
+            "@timestamp": "2015-09-15T03:03:31.800000000+05:30",
+            "plot": "Shopping malls - today's place of creating desires. Best jewelry, clothes, shoes. Unaffordable by young girls, but they work to get themselves sponsors for new items.",
+            "genres": [
+                "Drama"
+            ],
+            "awards": {
+                "wins": {
+                    "$numberInt": "1"
+                },
+                "text": "1 win.",
+                "nominations": {
+                    "$numberInt": "0"
+                }
+            },
+            "lastupdated": "2015-09-15 03:03:31.800000000",
+            "released": {
+                "$date": {
+                    "$numberLong": "1253836800000"
+                }
+            }
+        }
+    }
+]

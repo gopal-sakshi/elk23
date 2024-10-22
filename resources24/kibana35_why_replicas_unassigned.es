@@ -28,10 +28,17 @@ curl -XGET localhost:9200/_cat/shards?h=index,shard,prirep,state,unassigned.reas
 curl -XPUT "localhost:9200/news_index25_5shards/_settings?pretty" -H 'Content-Type: application/json' -d' { "number_of_replicas": 2 }'
 
 
-
+// 2_commands2323 --- only for current session
 curl -XPUT -H "Content-Type: application/json" http://localhost:9200/_cluster/settings -d '{ "transient": { "cluster.routing.allocation.disk.threshold_enabled": false } }'
 
 curl -XPUT -H "Content-Type: application/json" http://localhost:9200/_all/_settings -d '{"index.blocks.read_only_allow_delete": null}'
+
+// But above settings work only for current elastic session
+// to change permanently --- paste this in elasticsearch.yml file
+cluster.routing.allocation.disk.threshold_enabled: true
+cluster.routing.allocation.disk.watermark.flood_stage: 5gb
+cluster.routing.allocation.disk.watermark.low: 10gb
+cluster.routing.allocation.disk.watermark.high: 5gb
 
 /*
     N >= R + 1
