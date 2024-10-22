@@ -1,58 +1,54 @@
 GET news_index25_5shards/_search
 {
-  "query": {
-    "bool": {
-      "must": [
-        {
-            "match_phrase": { "headline": "Michelle Obama" }
-        },
-        {
-          "match": { "category": "POLITICS" }
+    "query": {
+        "bool": {
+            "must": [
+                { "match_phrase": { "headline": "Michelle Obama" } },
+                { "match": { "category": "POLITICS" } }
+            ]
         }
-      ]
     }
-  }
 }
-#### MUST ---> array of 2 queries --> 'match_phrase' && 'match'
-######## match_phrase for 'headline' & match for 'category'
+// MUST ---> array of 2 queries --> 'match_phrase' && 'match' ===> 94 HITS
+// match_phrase for 'headline' & match for 'category'
 
 
 
 GET news_index24/_search
 {
-  "query": {
-    "bool": {
-      "must": {
-        "match_phrase": {
-          "headline": "Michelle Obama"
-         }
+    "query": {
+        "bool": {
+            "must": {
+                "match_phrase": {
+                    "headline": "Michelle Obama"
+                }
+            }
         }
     }
-  }
 }
-### Michelle Obama is present in headlines in 220 docs
+// Michelle Obama is present in headlines in 220 docs
 
 
 
 GET news_index24/_search
 {
-  "query": {
-    "bool": {
-      "must": {
-        "match_phrase": {
-          "headline": "Michelle Obama"
-         }
+    "query": {
+        "bool": {
+            "must": {
+                "match_phrase": {
+                    "headline": "Michelle Obama"
+                }
+            }
+        }
+    },
+    "aggs": {
+        "category23": {
+            "terms": {
+                "field": "category",
+                "size": 100
+            }
         }
     }
-  },
-  "aggs": {
-    "category23": {
-      "terms": {
-        "field": "category",
-        "size": 100
-      }
-    }
-  }
 }
 ### Michelle Obama is present in headlines in 220 docs
 ### then we aggregated it based on category ---> 

@@ -1,9 +1,9 @@
-Mapping
+`Mapping`
 - process of defining how a document and its fields are indexed
 - mapping affects how ES searches & stores data
 
 
-dynamic mapping
+`dynamic mapping`
 - When a user does not define the mapping in advance (while creating the "index") 
 - ES creates/updates the mapping as needed by default. 
 ================================================================================================
@@ -15,7 +15,7 @@ lists the type of each field (text, keyword, long, float, date, boolean)
 
 
 ================================================================================================
-With dynamic mapping
+`With dynamic mapping`
 - ES looks at each field and 
 - tries to infer the data type from the field content. 
 - Then, it assigns a type to each field and 

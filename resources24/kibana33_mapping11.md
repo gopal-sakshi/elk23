@@ -1,20 +1,23 @@
+```js
 POST temp_index/_doc
 {
-  "name": "Pineapple",
-  "botanical_name": "Ananas comosus",
-  "produce_type": "Fruit",
-  "country_of_origin": "New Zealand",
-  "date_purchased": "2020-06-02T12:15:35",
-  "quantity": 200,
-  "unit_price": 3.11,
-  "description": "a large juicy tropical fruit consisting of aromatic edible yellow flesh surrounded by a tough segmented skin and topped with a tuft of stiff leaves.These pineapples are sourced from New Zealand.",
-  "vendor_details": {
-    "vendor": "Tropical Fruit Growers of New Zealand",
-    "main_contact": "Hugh Rose",
-    "vendor_location": "Whangarei, New Zealand",
-    "preferred_vendor": true
-  }
+    "name": "Pineapple",
+    "botanical_name": "Ananas comosus",
+    "produce_type": "Fruit",
+    "country_of_origin": "New Zealand",
+    "date_purchased": "2020-06-02T12:15:35",
+    "quantity": 200,
+    "unit_price": 3.11,
+    "description": "a large juicy tropical fruit consisting of aromatic edible yellow flesh surrounded by a tough segmented skin and topped with a tuft of stiff leaves.These pineapples are sourced from New Zealand.",
+    "vendor_details": {
+        "vendor": "Tropical Fruit Growers of New Zealand",
+        "main_contact": "Hugh Rose",
+        "vendor_location": "Whangarei, New Zealand",
+        "preferred_vendor": true
+    }
 }
+```
+
 
 ==================================================================================
 
@@ -22,12 +25,11 @@ By default, every string gets mapped twice
 - as a text field and 
 - as a keyword multi-field
 
-
-Text field type 
+`Text field type`
 - designed for full-text searches. 
 - search for individual terms in a non-case sensitive manner.
 
-Keyword field type
+`Keyword field type`
 - designed for exact searches, aggregations, sorting. 
 - searching for original strings.
 
@@ -38,11 +40,20 @@ we can assign the field type as either
 
 ==============================================================
 
-PUT temp_index/_doc/2 
-{
-    "description": "These apples are sourced from australia"
-}
+POST temp_index23/_bulk
+{ "create":{ } }
+{ "id":1,"balance":39225,"firstname":"Luka","lastname":"Modric", "description":"These apples are sourced from australia" }
+{ "create":{ } }
+{ "id":2,"balance":33244,"firstname":"Sergio","lastname":"Ramos", "description":"These pineapples are sourced from new zealand" }
+{ "create":{ } }
+{ "id":3,"balance":54422,"firstname":"Toni","lastname":"Kroos", "description":"these mangoes are produced in new zealand" }
+
+GET temp_index23/_search
+
+`https://kb.objectrocket.com/elasticsearch/elasticsearch-cheatsheet-of-kibana-console-requests-251#common+put+requests`
+
 ### say ===> _doc/1 ====>   "These pineapples are sourced from new zealand"
+### say ===> _doc/2 ====>   "These apples are sourced from australia"
 ### say ===> _doc/3 ====>   "these mangoes are produced in new zealand"
 
 InvertedIndex   ---> tokens & list of docs that contain the said token         
@@ -84,8 +95,8 @@ ___doc_id___          ____doc values____
     5                   New zealand
     6                   New Caledonia
 
-keyword field type
-- used for aggregations, sorting, exact search
+`keyword` field type
+- used for <aggregations, sorting, exact search>
 - lookup the documentID - to find values it has in its fields
 - "doc values" data structure
 - this data structure(doc values) is designed 
@@ -97,8 +108,8 @@ keyword field type
 
 In cases where you do not need both field types, the default setting is wasteful. 
 Since both field types require creating 
-    either an inverted index (text field type) 
-    or doc values (keyword field type) 
+    either an inverted index (<text> field type) 
+    or doc values (<keyword> field type) 
 - creating both field types for unnecessary fields will 
     slow down indexing & 
     take up more disk space.
@@ -119,7 +130,7 @@ client requirements
 - map the field "country_of_origin" twice as text & keyword
 
 
-(C) sort produce by produce type(fruit or vegetable)
+(C) sort produce by produce type (fruit or vegetable)
 - map the field produce_type ---> keyword only
 - coz, client wont need full text search for this field
 
@@ -137,25 +148,21 @@ botanical_name & vendor_details
 
 updated mapping23 ===>
 
-
+```js
 PUT temp_index_newMapping
 {
     "mappings": {
         "properties": {
-            "botanical_name": { "enabled": false },
-            "country_of_origin": {
-                "type": "text",
-                "fields": {
-                    "keyword": { "type": "keyword" }
-                }
-            },
-            "date_purchased": { "type": "date" },
-            "description": { "type": "text" },
-            "name": { "type": "text" },
-            "produce_type": { "type": "keyword" },
-            "quantity": { "type": "long" },
-            "unit_price": { "type": "float" },
-            "vendor_details": { "enabled": false }
+            "country_of_origin":    { "type": "text", "fields": { "keyword": { "type": "keyword" } } },
+            "date_purchased":       { "type": "date" },
+            "description":          { "type": "text" },
+            "name":                 { "type": "text" },
+            "produce_type":         { "type": "keyword" },
+            "quantity":             { "type": "long" },
+            "unit_price":           { "type": "float" },
+            "vendor_details":       { "enabled": false },
+            "botanical_name":       { "enabled": false }
         }
     }
 }
+```

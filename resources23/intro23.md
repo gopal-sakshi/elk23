@@ -10,9 +10,17 @@ distributed search server
 
 `shards`
 - elastic search indexes are divided into shards
-- eng_movies24 ===> is a index; it has 23549 documents
+- eng_movies24 ============> is a index; it has 23549 documents
 - those 23549 documents are stored in shards, and shards are allocated to nodes in your cluster
+- news_index25_5shards ====> is an index with 209,544 documents
+    shard 3 = 42022 docs
+    shard 4 = 42028 docs 
+    shard 1 = 41616 docs
+    shard 2 = 42083 docs
+    shard 0 = 41795 docs
 
+    es01
+    es02
 
 `clusters`
 - a collection of one (or) more nodes
